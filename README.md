@@ -207,10 +207,10 @@ The platform follows a **scientific/technical** approach inspired by internal ne
 - ✅ Visualization dashboards functional
 - ✅ Experiment tracking interface
 - ✅ Lab registry system
+- ✅ Backend API implementation with tRPC
+- ✅ Python data processing scripts (ingest.py, dataset.py)
 
 ### Next Steps
-- [ ] Backend API implementation with tRPC
-- [ ] Python data processing scripts (ingest.py, dataset.py)
 - [ ] ML training pipeline (train.py, eval.py)
 - [ ] Docker containerization
 - [ ] CI/CD with GitHub Actions
