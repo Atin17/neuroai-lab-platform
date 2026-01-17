@@ -186,17 +186,17 @@ const ensureSeeded = () => {
   }
 };
 
-const buildFeatureMetrics = (featureSet: FeatureRecord["featureSet"]) => {
+const buildFeatureMetrics = (featureSet: FeatureRecord["featureSet"]): Record<string, number> => {
   switch (featureSet) {
     case "spike_rate":
-      return { mean: 19.1, variance: 5.4, peak: 32.6 };
+      return { mean: 19.1, variance: 5.4, peak: 32.6 } as Record<string, number>;
     case "band_power":
-      return { beta: 0.68, gamma: 0.71, theta: 0.52 };
+      return { beta: 0.68, gamma: 0.71, theta: 0.52 } as Record<string, number>;
     case "lfp_spectrum":
-      return { alpha: 0.41, beta: 0.63, gamma: 0.59 };
+      return { alpha: 0.41, beta: 0.63, gamma: 0.59 } as Record<string, number>;
     case "custom":
     default:
-      return { customA: 0.58, customB: 0.44, customC: 0.77 };
+      return { customA: 0.58, customB: 0.44, customC: 0.77 } as Record<string, number>;
   }
 };
 
@@ -260,7 +260,7 @@ export const appRouter = router({
           channels: z.number().int().positive(),
           duration: z.string(),
           status: sessionStatusSchema.default("pending"),
-          metadata: z.record(z.string()).default({}),
+          metadata: z.record(z.string(), z.string()).default({}),
         }),
       )
       .mutation(({ input }) => {
@@ -291,7 +291,7 @@ export const appRouter = router({
           channels: z.number().int().positive().optional(),
           duration: z.string().optional(),
           status: sessionStatusSchema.optional(),
-          metadata: z.record(z.string()).optional(),
+          metadata: z.record(z.string(), z.string()).optional(),
         }),
       )
       .mutation(({ input }) => {
@@ -431,7 +431,7 @@ export const appRouter = router({
           name: z.string(),
           owner: z.string(),
           sessions: z.array(z.string()).min(1),
-          metrics: z.record(z.number()).default({}),
+          metrics: z.record(z.string(), z.number()).default({}),
           notes: z.string().default(""),
         }),
       )
