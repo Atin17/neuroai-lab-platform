@@ -1,6 +1,6 @@
 # NeuroAI Lab Platform Demo
 
-> A Neuralink-style centralized data aggregation and analysis platform for neural timeseries data
+> A centralized data aggregation and analysis platform for neural timeseries data
 
 ![Platform Screenshot](https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=400&fit=crop)
 
