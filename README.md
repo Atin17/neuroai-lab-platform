@@ -4,49 +4,49 @@
 
 ![Platform Screenshot](https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=400&fit=crop)
 
-## 🧠 Overview
+## Overview
 
 This platform demonstrates production-ready infrastructure for neuroscience research teams, showcasing end-to-end workflows from raw neural data ingestion through machine learning model training with comprehensive experiment tracking. Built to mirror the internal tooling used by companies like Neuralink for managing large-scale neural recording datasets.
 
-## ✨ Key Features
+## Key Features
 
-### 📊 Data Management
+### Data Management
 - **Multi-Format Ingestion**: Support for NWB, Parquet, JSON, and image formats
 - **Schema Validation**: Automated validation for neural timeseries, metadata, and annotations
 - **Efficient Storage**: Parquet-based storage with metadata indexing
 - **Quality Control**: Real-time validation and quality metrics
 
-### 🔍 Data Explorer
+### Data Explorer
 - **Advanced Filtering**: Search by subject, date, task, and custom metadata
 - **Feature Extraction**: Bandpower analysis, spike detection, RMS amplitude
 - **Event Alignment**: Trial-averaged responses aligned to experimental events
 - **Export Capabilities**: Download processed data for external analysis
 
-### 📈 Visualization Dashboard
+### Visualization Dashboard
 - **Timeseries Viewer**: Interactive multi-channel neural recording display
 - **Event Overlays**: Experimental markers synchronized with neural data
 - **Spectral Analysis**: Power spectral density across frequency bands
 - **Distribution Plots**: Signal quality metrics and drift detection
 
-### 🤖 Model Training
+### Model Training
 - **Multiple Algorithms**: Random Forest, SVM, XGBoost, PyTorch neural networks
 - **Cross-Validation**: Robust k-fold CV with stratification
 - **Performance Metrics**: Accuracy, precision, recall, F1, confusion matrices
 - **Model Versioning**: Automated checkpoint saving and comparison
 
-### 📁 Experiment Tracking
+### Experiment Tracking
 - **YAML Configurations**: Reproducible experiment definitions
 - **Run History**: Complete tracking of all training runs
 - **Metrics Storage**: Structured metrics.json for each experiment
 - **Artifact Management**: Organized storage of models, plots, and reports
 
-### 📝 Lab Registry
+### Lab Registry
 - **Session Documentation**: Rich notes with experimental observations
 - **Device Tracking**: Recording device metadata and configurations
 - **Tagging System**: Flexible categorization of sessions
 - **File Attachments**: Protocols, analysis notes, supporting documents
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 22+
@@ -82,7 +82,7 @@ pnpm build
 pnpm start
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ### Frontend Stack
 - **React 19** with TypeScript for type-safe UI development
@@ -104,7 +104,7 @@ pnpm start
 - **Theme**: Dark mode optimized for extended viewing
 - **Layout**: Dashboard with persistent sidebar navigation
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 neuroai-lab-platform-demo/
@@ -133,10 +133,7 @@ neuroai-lab-platform-demo/
 └── README.md           # This file
 ```
 
-## 🎯 Use Cases
-
-### For Hiring Teams
-Demonstrates full-stack capabilities with domain expertise in neuroscience data infrastructure. Shows ability to build production-ready scientific software that research teams can actually use.
+## Use Cases
 
 ### For Research Labs
 Provides a template for building centralized data management systems for neural recording experiments. Showcases best practices for reproducibility and experiment tracking.
@@ -187,7 +184,7 @@ pnpm test
 pnpm check
 ```
 
-## 📊 Demo Data
+## Demo Data
 
 The platform includes mock data for demonstration:
 - **3 recording sessions** with multi-channel neural timeseries
@@ -195,16 +192,14 @@ The platform includes mock data for demonstration:
 - **3 experiment runs** with full metrics
 - **Sample configurations** in YAML format
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
-The platform follows a **scientific/technical aesthetic** inspired by internal neuroscience tooling:
+The platform follows a **scientific/technical** approach inspired by internal neuroscience tooling:
 
-- **Professional, not academic**: Looks like production software, not research prototypes
 - **Data-first**: Emphasis on clarity and readability of neural data
 - **Minimal distractions**: Clean interface that keeps focus on the data
-- **Dark theme**: Optimized for extended viewing sessions with neural timeseries
 
-## 🚧 Roadmap
+## Roadmap
 
 ### Current Status (MVP)
 - ✅ Complete UI for all core modules
@@ -236,7 +231,7 @@ This is a demonstration project. For production use, consider:
 
 ## 📞 Contact
 
-Built by [Your Name] to demonstrate full-stack capabilities in neuroscience data infrastructure.
+Built by Atin Srivastava.
 
 ---
 
