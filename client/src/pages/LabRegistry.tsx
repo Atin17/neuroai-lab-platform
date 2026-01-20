@@ -147,7 +147,7 @@ export default function LabRegistry() {
             </CardHeader>
             <CardContent>
               <div className="text-3xl font-bold text-orange-400">
-                {registryEntries.filter((e) => e.attachments.length > 0).length}
+                {registryEntries.filter((e) => e.attachments && e.attachments.length > 0).length}
               </div>
             </CardContent>
           </Card>
@@ -296,7 +296,7 @@ export default function LabRegistry() {
                     ))}
                   </div>
 
-                  {entry.attachments.length > 0 && (
+                  {entry.attachments && entry.attachments.length > 0 && (
                     <div className="p-3 bg-slate-800 rounded border border-slate-700">
                       <p className="text-xs text-gray-400 mb-2 flex items-center gap-1">
                         <Paperclip className="h-3 w-3" />
