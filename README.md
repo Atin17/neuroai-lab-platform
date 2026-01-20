@@ -1,4 +1,4 @@
-# NeuroAI Lab Platform Demo
+# NeuroAI Lab Platform
 
 > A centralized data aggregation and analysis platform for neural timeseries data
 
@@ -107,7 +107,7 @@ pnpm start
 ## Project Structure
 
 ```
-neuroai-lab-platform-demo/
+neuroai-lab-platform/
 ├── client/                 # Frontend application
 │   ├── src/
 │   │   ├── pages/         # Page components
@@ -222,7 +222,7 @@ MIT License - see LICENSE file for details
 
 ## 🤝 Contributing
 
-This is a demonstration project. For production use, consider:
+For production use, consider:
 - Adding authentication middleware for multi-user support
 - Implementing real data ingestion pipelines
 - Integrating with actual neural recording hardware
