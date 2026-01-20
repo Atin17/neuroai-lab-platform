@@ -42,3 +42,18 @@
 - [ ] Add CI (GitHub Actions): lint + tests
 - [x] Write PROJECT_BRIEF.md mapping features → Neuralink-style needs
 - [x] Update README with "1-minute run" + screenshots
+
+
+## Mock Database & Analytics (Complete)
+- [x] Create seed script with realistic neural data
+- [x] Populate sessions, recordings, events, quality metrics
+- [x] Create Analytics Dashboard page
+- [x] Build Signal Quality Dashboard
+- [x] Add vitest tests for seed data validation
+- [x] Integrate mock data across all dashboards
+- [x] Implement Data Ingestion with mock data
+- [x] Implement Data Explorer with filtering
+- [x] Implement Visualization with timeseries and spectral analysis
+- [x] Implement Model Training with training curves and evaluation
+- [x] Implement Experiment Tracking with run history and comparison
+- [x] Implement Lab Registry with session documentation

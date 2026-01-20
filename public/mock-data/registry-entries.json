@@ -1,29 +1,29 @@
 [
   {
-    "id": "7e44a83d-baa5-47f1-8db8-ec09584630f1",
+    "id": "8f9c3028-6cf9-4d98-b651-c0457171fbfd",
     "subject": "Subject_A",
     "device": "N2_Array",
-    "implantDate": "2025-11-20T00:01:27.134Z",
+    "implantDate": "2025-07-23T11:12:36.811Z",
     "notes": "Neural recording setup for Subject_A. Array positioned in motor cortex.",
     "status": "active",
-    "createdAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z"
   },
   {
-    "id": "837af7b1-05e4-4265-889e-718ccdaac160",
+    "id": "1080320c-3cb2-4124-bf06-74509965549a",
     "subject": "Subject_B",
-    "device": "Utah_Array",
-    "implantDate": "2025-04-19T16:56:02.638Z",
+    "device": "N2_Array",
+    "implantDate": "2025-09-11T01:31:08.097Z",
     "notes": "Neural recording setup for Subject_B. Array positioned in motor cortex.",
     "status": "active",
-    "createdAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z"
   },
   {
-    "id": "ba4da14d-3e02-4a49-a0c9-842816b886d6",
+    "id": "57bcaf07-5312-44b0-beab-c9f2054b8e8e",
     "subject": "Subject_C",
-    "device": "N1_Array",
-    "implantDate": "2025-10-07T06:02:19.309Z",
+    "device": "N2_Array",
+    "implantDate": "2025-12-18T21:54:37.189Z",
     "notes": "Neural recording setup for Subject_C. Array positioned in motor cortex.",
     "status": "active",
-    "createdAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z"
   }
 ]

@@ -2,228 +2,336 @@ import DashboardLayout from "@/components/DashboardLayout";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
-import { Badge } from "@/components/ui/badge";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, ScatterChart, Scatter } from "recharts";
-import { Activity, BarChart3, TrendingUp } from "lucide-react";
-
-const mockTimeseriesData = Array.from({ length: 100 }, (_, i) => ({
-  time: i * 0.01,
-  channel1: Math.sin(i * 0.2) * 50 + Math.random() * 20,
-  channel2: Math.cos(i * 0.15) * 40 + Math.random() * 15,
-  channel3: Math.sin(i * 0.25) * 60 + Math.random() * 25,
-}));
-
-const mockBandpowerData = [
-  { band: "Delta", power: 45 },
-  { band: "Theta", power: 62 },
-  { band: "Alpha", power: 78 },
-  { band: "Beta", power: 55 },
-  { band: "Gamma", power: 38 },
-];
-
-const mockDistributionData = Array.from({ length: 50 }, (_, i) => ({
-  x: Math.random() * 100,
-  y: Math.random() * 100,
-}));
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, ScatterChart, Scatter, ComposedChart } from "recharts";
+import { Activity, BarChart3, TrendingUp, Zap } from "lucide-react";
+import { useState, useEffect } from "react";
+import { mockDataService, Session, Recording, Event } from "@/lib/mockDataService";
+import { toast } from "sonner";
 
 export default function Visualization() {
+  const [sessions, setSessions] = useState<Session[]>([]);
+  const [selectedSessionId, setSelectedSessionId] = useState<string>("");
+  const [selectedSession, setSelectedSession] = useState<Session | null>(null);
+  const [recordings, setRecordings] = useState<Recording[]>([]);
+  const [events, setEvents] = useState<Event[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [selectedChannel, setSelectedChannel] = useState(1);
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        await mockDataService.load();
+        const allSessions = mockDataService.getSessions();
+        setSessions(allSessions);
+        if (allSessions.length > 0) {
+          const firstSession = allSessions[0];
+          setSelectedSessionId(firstSession.id);
+          setSelectedSession(firstSession);
+          const sessionRecordings = mockDataService.getRecordingsBySession(firstSession.id);
+          setRecordings(sessionRecordings);
+          const sessionEvents = mockDataService.getEventsBySession(firstSession.id);
+          setEvents(sessionEvents);
+        }
+      } catch (error) {
+        console.error("Failed to load mock data:", error);
+        toast.error("Failed to load mock data");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, []);
+
+  const handleSessionChange = (sessionId: string) => {
+    setSelectedSessionId(sessionId);
+    const session = mockDataService.getSessionById(sessionId);
+    if (session) {
+      setSelectedSession(session);
+      const sessionRecordings = mockDataService.getRecordingsBySession(sessionId);
+      setRecordings(sessionRecordings);
+      const sessionEvents = mockDataService.getEventsBySession(sessionId);
+      setEvents(sessionEvents);
+      setSelectedChannel(1);
+    }
+  };
+
+  // Generate timeseries visualization data
+  const generateTimeseriesData = () => {
+    if (recordings.length === 0) return [];
+    const channelRecordings = recordings.filter((r) => r.channelId === selectedChannel);
+    if (channelRecordings.length === 0) return [];
+    
+    const recording = channelRecordings[0];
+    return recording.timeseries.slice(0, 200).map((value, index) => ({
+      time: (index * 0.001).toFixed(3),
+      amplitude: value,
+    }));
+  };
+
+  // Generate bandpower data
+  const generateBandpowerData = () => {
+    const bands = ["Delta", "Theta", "Alpha", "Beta", "Gamma"];
+    return bands.map((band, index) => ({
+      band,
+      power: Math.random() * 100,
+      frequency: 5 + index * 5,
+    }));
+  };
+
+  // Generate spike raster data
+  const generateSpikeRasterData = () => {
+    if (recordings.length === 0) return [];
+    return recordings.slice(0, 16).map((recording, index) => ({
+      channel: index + 1,
+      spikes: recording.spikeTimes.length,
+      firingRate: (recording.spikeTimes.length / (selectedSession?.duration || 30)).toFixed(2),
+    }));
+  };
+
+  // Generate event timeline
+  const generateEventTimeline = () => {
+    return events.slice(0, 10).map((event, index) => ({
+      time: event.timestamp,
+      type: event.type,
+      index: index,
+    }));
+  };
+
+  const timeseriesData = generateTimeseriesData();
+  const bandpowerData = generateBandpowerData();
+  const spikeRasterData = generateSpikeRasterData();
+  const eventTimeline = generateEventTimeline();
+
+  if (loading) {
+    return (
+      <DashboardLayout>
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="text-center">
+            <Activity className="w-12 h-12 animate-spin mx-auto mb-4 text-blue-500" />
+            <p className="text-gray-400">Loading visualization data...</p>
+          </div>
+        </div>
+      </DashboardLayout>
+    );
+  }
+
   return (
     <DashboardLayout>
       <div className="space-y-6">
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-foreground">Visualization Dashboard</h1>
           <p className="text-muted-foreground mt-2">
-            Interactive neural timeseries viewer with event overlays and distribution analysis
+            Interactive neural timeseries viewer with event overlays and spectral analysis
           </p>
         </div>
 
+        {/* Session and Channel Selection */}
         <div className="grid gap-4 md:grid-cols-3">
           <div className="space-y-2">
             <Label htmlFor="session-select">Session</Label>
-            <Select defaultValue="sess_001">
+            <Select value={selectedSessionId} onValueChange={handleSessionChange}>
               <SelectTrigger id="session-select">
                 <SelectValue placeholder="Select session" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="sess_001">sess_001 - subject_A</SelectItem>
-                <SelectItem value="sess_002">sess_002 - subject_B</SelectItem>
-                <SelectItem value="sess_003">sess_003 - subject_A</SelectItem>
+                {sessions.map((session) => (
+                  <SelectItem key={session.id} value={session.id}>
+                    {session.subject} - {session.task} ({session.date})
+                  </SelectItem>
+                ))}
               </SelectContent>
             </Select>
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="channel-select">Channel Group</Label>
-            <Select defaultValue="group1">
+            <Label htmlFor="channel-select">Channel</Label>
+            <Select value={selectedChannel.toString()} onValueChange={(val) => setSelectedChannel(parseInt(val))}>
               <SelectTrigger id="channel-select">
-                <SelectValue placeholder="Select channels" />
+                <SelectValue placeholder="Select channel" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="group1">Channels 1-3</SelectItem>
-                <SelectItem value="group2">Channels 4-6</SelectItem>
-                <SelectItem value="all">All Channels</SelectItem>
+                {Array.from({ length: Math.min(16, selectedSession?.channels || 1) }, (_, i) => (
+                  <SelectItem key={i + 1} value={(i + 1).toString()}>
+                    Channel {i + 1}
+                  </SelectItem>
+                ))}
               </SelectContent>
             </Select>
           </div>
 
-          <div className="space-y-2">
-            <Label htmlFor="window-select">Time Window</Label>
-            <Select defaultValue="1s">
-              <SelectTrigger id="window-select">
-                <SelectValue placeholder="Select window" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="1s">1 second</SelectItem>
-                <SelectItem value="5s">5 seconds</SelectItem>
-                <SelectItem value="10s">10 seconds</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
+          {selectedSession && (
+            <div className="space-y-2">
+              <Label>Session Info</Label>
+              <div className="p-3 bg-slate-800 rounded border border-slate-700">
+                <p className="text-xs text-gray-400">
+                  {selectedSession.channels} channels • {selectedSession.samplingRate / 1000}kHz • {selectedSession.duration}min
+                </p>
+              </div>
+            </div>
+          )}
         </div>
 
+        {/* Timeseries Viewer */}
         <Card className="bg-card border-border">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Activity className="h-5 w-5 text-primary" />
               Neural Timeseries
             </CardTitle>
-            <CardDescription>
-              Multi-channel recording with event markers
-            </CardDescription>
+            <CardDescription>Raw recording data with event markers</CardDescription>
           </CardHeader>
           <CardContent>
             <ResponsiveContainer width="100%" height={300}>
-              <LineChart data={mockTimeseriesData}>
-                <CartesianGrid strokeDasharray="3 3" stroke="oklch(0.25 0.02 240)" />
-                <XAxis
-                  dataKey="time"
-                  label={{ value: "Time (s)", position: "insideBottom", offset: -5 }}
-                  stroke="oklch(0.65 0.01 240)"
+              <ComposedChart data={timeseriesData}>
+                <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                <XAxis dataKey="time" stroke="#94a3b8" />
+                <YAxis stroke="#94a3b8" />
+                <Tooltip contentStyle={{ backgroundColor: "#1e293b", border: "1px solid #475569" }} />
+                <Line
+                  type="monotone"
+                  dataKey="amplitude"
+                  stroke="#2196F3"
+                  dot={false}
+                  isAnimationActive={false}
+                  name="Amplitude (µV)"
                 />
-                <YAxis
-                  label={{ value: "Amplitude (μV)", angle: -90, position: "insideLeft" }}
-                  stroke="oklch(0.65 0.01 240)"
-                />
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: "oklch(0.16 0.02 240)",
-                    border: "1px solid oklch(0.25 0.02 240)",
-                    borderRadius: "0.5rem",
-                  }}
-                />
-                <Line type="monotone" dataKey="channel1" stroke="oklch(0.65 0.22 240)" strokeWidth={2} dot={false} />
-                <Line type="monotone" dataKey="channel2" stroke="oklch(0.7 0.2 200)" strokeWidth={2} dot={false} />
-                <Line type="monotone" dataKey="channel3" stroke="oklch(0.6 0.18 180)" strokeWidth={2} dot={false} />
-              </LineChart>
+              </ComposedChart>
             </ResponsiveContainer>
-            <div className="flex gap-2 mt-4">
-              <Badge variant="outline" className="border-[oklch(0.65_0.22_240)] text-[oklch(0.65_0.22_240)]">
-                Channel 1
-              </Badge>
-              <Badge variant="outline" className="border-[oklch(0.7_0.2_200)] text-[oklch(0.7_0.2_200)]">
-                Channel 2
-              </Badge>
-              <Badge variant="outline" className="border-[oklch(0.6_0.18_180)] text-[oklch(0.6_0.18_180)]">
-                Channel 3
-              </Badge>
-            </div>
           </CardContent>
         </Card>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        {/* Spectral Analysis and Spike Raster */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* Bandpower Analysis */}
           <Card className="bg-card border-border">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <BarChart3 className="h-5 w-5 text-primary" />
                 Bandpower Analysis
               </CardTitle>
-              <CardDescription>
-                Power spectral density across frequency bands
-              </CardDescription>
+              <CardDescription>Power spectral density across frequency bands</CardDescription>
             </CardHeader>
             <CardContent>
-              <ResponsiveContainer width="100%" height={250}>
-                <BarChart data={mockBandpowerData}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="oklch(0.25 0.02 240)" />
-                  <XAxis dataKey="band" stroke="oklch(0.65 0.01 240)" />
-                  <YAxis stroke="oklch(0.65 0.01 240)" />
-                  <Tooltip
-                    contentStyle={{
-                      backgroundColor: "oklch(0.16 0.02 240)",
-                      border: "1px solid oklch(0.25 0.02 240)",
-                      borderRadius: "0.5rem",
-                    }}
-                  />
-                  <Bar dataKey="power" fill="oklch(0.6 0.2 240)" radius={[8, 8, 0, 0]} />
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart data={bandpowerData}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                  <XAxis dataKey="band" stroke="#94a3b8" />
+                  <YAxis stroke="#94a3b8" />
+                  <Tooltip contentStyle={{ backgroundColor: "#1e293b", border: "1px solid #475569" }} />
+                  <Bar dataKey="power" fill="#10B981" name="Power (dB)" />
                 </BarChart>
               </ResponsiveContainer>
             </CardContent>
           </Card>
 
+          {/* Spike Raster */}
           <Card className="bg-card border-border">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
-                <TrendingUp className="h-5 w-5 text-primary" />
-                Signal Distribution
+                <Zap className="h-5 w-5 text-primary" />
+                Spike Activity
               </CardTitle>
-              <CardDescription>
-                Amplitude distribution and drift analysis
-              </CardDescription>
+              <CardDescription>Spike counts and firing rates per channel</CardDescription>
             </CardHeader>
             <CardContent>
-              <ResponsiveContainer width="100%" height={250}>
-                <ScatterChart>
-                  <CartesianGrid strokeDasharray="3 3" stroke="oklch(0.25 0.02 240)" />
-                  <XAxis type="number" dataKey="x" stroke="oklch(0.65 0.01 240)" />
-                  <YAxis type="number" dataKey="y" stroke="oklch(0.65 0.01 240)" />
-                  <Tooltip
-                    contentStyle={{
-                      backgroundColor: "oklch(0.16 0.02 240)",
-                      border: "1px solid oklch(0.25 0.02 240)",
-                      borderRadius: "0.5rem",
-                    }}
-                    cursor={{ strokeDasharray: "3 3" }}
-                  />
-                  <Scatter data={mockDistributionData} fill="oklch(0.6 0.2 240)" />
-                </ScatterChart>
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart data={spikeRasterData}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+                  <XAxis dataKey="channel" stroke="#94a3b8" />
+                  <YAxis stroke="#94a3b8" />
+                  <Tooltip contentStyle={{ backgroundColor: "#1e293b", border: "1px solid #475569" }} />
+                  <Bar dataKey="spikes" fill="#F59E0B" name="Spike Count" />
+                </BarChart>
               </ResponsiveContainer>
             </CardContent>
           </Card>
         </div>
 
-        <Card className="bg-card border-border">
-          <CardHeader>
-            <CardTitle>Event Markers</CardTitle>
-            <CardDescription>
-              Experimental events and annotations aligned to timeseries
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-3">
-              <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
-                <div>
-                  <p className="font-semibold text-sm">Stimulus Onset</p>
-                  <p className="text-xs text-muted-foreground">t = 0.25s</p>
-                </div>
-                <Badge className="bg-green-600">Event</Badge>
+        {/* Event Timeline */}
+        {eventTimeline.length > 0 && (
+          <Card className="bg-card border-border">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <TrendingUp className="h-5 w-5 text-primary" />
+                Event Timeline
+              </CardTitle>
+              <CardDescription>{events.length} experimental events detected</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-2">
+                {eventTimeline.map((event, index) => (
+                  <div key={index} className="flex items-center gap-4 p-2 bg-slate-800 rounded">
+                    <div className="text-sm font-mono text-gray-400">{event.time.toFixed(2)}s</div>
+                    <div className="flex-1">
+                      <span className="inline-block px-2 py-1 rounded text-xs font-semibold bg-blue-900 text-blue-200">
+                        {event.type}
+                      </span>
+                    </div>
+                  </div>
+                ))}
               </div>
-              <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
-                <div>
-                  <p className="font-semibold text-sm">Response Window</p>
-                  <p className="text-xs text-muted-foreground">t = 0.45s - 0.65s</p>
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Statistics */}
+        {selectedSession && (
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <Card className="bg-card border-border">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-sm font-medium text-gray-400">Total Recordings</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold text-blue-400">{recordings.length}</div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card border-border">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-sm font-medium text-gray-400">Events Detected</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold text-green-400">{events.length}</div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card border-border">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-sm font-medium text-gray-400">Avg Spike Rate</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold text-purple-400">
+                  {(
+                    recordings.reduce((sum, r) => sum + r.spikeTimes.length, 0) /
+                    recordings.length /
+                    (selectedSession.duration / 60)
+                  ).toFixed(1)}
+                  Hz
                 </div>
-                <Badge className="bg-blue-600">Interval</Badge>
-              </div>
-              <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
-                <div>
-                  <p className="font-semibold text-sm">Trial End</p>
-                  <p className="text-xs text-muted-foreground">t = 0.95s</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card border-border">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-sm font-medium text-gray-400">Quality</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div
+                  className={`text-2xl font-bold ${
+                    selectedSession.metadata.quality === "good"
+                      ? "text-green-400"
+                      : selectedSession.metadata.quality === "fair"
+                      ? "text-orange-400"
+                      : "text-red-400"
+                  }`}
+                >
+                  {selectedSession.metadata.quality}
                 </div>
-                <Badge className="bg-yellow-600">Marker</Badge>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+              </CardContent>
+            </Card>
+          </div>
+        )}
       </div>
     </DashboardLayout>
   );

@@ -1,962 +1,962 @@
 [
   {
-    "id": "dfd3325a-46c0-41a4-9d2b-33acbe7165a3",
-    "sessionId": "6a934a97-f3dd-421e-9074-d77823afb1d3",
+    "id": "dea50e19-115e-4d05-a168-3c0aedb55d4e",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
     "featureType": "bandpower",
-    "windowStart": 2219631.3561392305,
-    "windowEnd": 2414826.2887208024,
+    "windowStart": 1254888.1160975555,
+    "windowEnd": 1245365.9711183328,
     "values": {
-      "bandpower_alpha": 0.16589756920223286,
-      "bandpower_beta": 0.2788888360305726,
-      "bandpower_gamma": 0.268277764654332,
-      "spike_rate": 27.86257770450623,
-      "rms_amplitude": 64.97523542788824,
-      "burst_index": 0.23867477350583322
+      "bandpower_alpha": 0.2579856460306049,
+      "bandpower_beta": 0.0022773689299700806,
+      "bandpower_gamma": 0.28580186830460463,
+      "spike_rate": 30.48504252241262,
+      "rms_amplitude": 75.93795869352155,
+      "burst_index": 0.690613604541929
     },
-    "createdAt": "2026-01-20T01:18:09.537Z"
+    "createdAt": "2026-01-20T16:47:26.415Z"
   },
   {
-    "id": "49ad78a0-9eeb-4254-8774-6589bd1e373f",
-    "sessionId": "6a934a97-f3dd-421e-9074-d77823afb1d3",
+    "id": "8e8b6fec-97c4-49ce-97c6-27d62ff46d55",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
     "featureType": "spike_statistics",
-    "windowStart": 1181639.9671402974,
-    "windowEnd": 827829.6895557877,
+    "windowStart": 1155288.59166868,
+    "windowEnd": 1226084.258737245,
     "values": {
-      "bandpower_alpha": 0.40741185964183224,
-      "bandpower_beta": 0.18270403458202936,
-      "bandpower_gamma": 0.018032550870007234,
-      "spike_rate": 30.824028848738994,
-      "rms_amplitude": 59.5407848650225,
-      "burst_index": 0.6025266429234117
+      "bandpower_alpha": 0.4499664848545367,
+      "bandpower_beta": 0.3135697649216736,
+      "bandpower_gamma": 0.20632290673824769,
+      "spike_rate": 24.027437056580837,
+      "rms_amplitude": 18.038450421428397,
+      "burst_index": 0.7650288231315248
     },
-    "createdAt": "2026-01-20T01:18:09.537Z"
+    "createdAt": "2026-01-20T16:47:26.415Z"
   },
   {
-    "id": "4285319d-c64b-430f-ba55-b8779e582067",
-    "sessionId": "6a934a97-f3dd-421e-9074-d77823afb1d3",
+    "id": "a624061f-d77d-4f7f-8eea-bfaf75a2623c",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
     "featureType": "oscillations",
-    "windowStart": 1720873.7433291262,
-    "windowEnd": 1523464.414680739,
+    "windowStart": 289292.39973875514,
+    "windowEnd": 1690554.2848648932,
     "values": {
-      "bandpower_alpha": 0.4745897560802347,
-      "bandpower_beta": 0.16228026276224164,
-      "bandpower_gamma": 0.2621021136494877,
-      "spike_rate": 0.7309599732829408,
-      "rms_amplitude": 39.42371276131566,
-      "burst_index": 0.4647988274443282
+      "bandpower_alpha": 0.10785437687339927,
+      "bandpower_beta": 0.21367306939763991,
+      "bandpower_gamma": 0.012059630504518859,
+      "spike_rate": 47.317841295303545,
+      "rms_amplitude": 8.345841491970706,
+      "burst_index": 0.6287544422464004
     },
-    "createdAt": "2026-01-20T01:18:09.537Z"
+    "createdAt": "2026-01-20T16:47:26.415Z"
   },
   {
-    "id": "d05e9609-7aeb-4e67-8219-73a07256d98b",
-    "sessionId": "6a934a97-f3dd-421e-9074-d77823afb1d3",
+    "id": "c689acdc-1334-4a23-9ad3-b3d084547414",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
     "featureType": "connectivity",
-    "windowStart": 984709.654639729,
-    "windowEnd": 2324267.0538019054,
+    "windowStart": 1427218.7766232283,
+    "windowEnd": 470878.27820601664,
     "values": {
-      "bandpower_alpha": 0.1884226996707853,
-      "bandpower_beta": 0.0899275190579016,
-      "bandpower_gamma": 0.08631531228169528,
-      "spike_rate": 5.365338440075873,
-      "rms_amplitude": 45.93197290277673,
-      "burst_index": 0.05378613466683096
+      "bandpower_alpha": 0.3955482300156894,
+      "bandpower_beta": 0.03033324146074623,
+      "bandpower_gamma": 0.2032083554954079,
+      "spike_rate": 34.170055784986786,
+      "rms_amplitude": 35.10448161013755,
+      "burst_index": 0.7742011072398274
     },
-    "createdAt": "2026-01-20T01:18:09.537Z"
+    "createdAt": "2026-01-20T16:47:26.415Z"
   },
   {
-    "id": "d6e2cceb-1b46-47dd-8ef1-c7e0049ec9de",
-    "sessionId": "6a934a97-f3dd-421e-9074-d77823afb1d3",
+    "id": "0e78c063-7227-4def-b2bf-8643b146748e",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
     "featureType": "temporal_dynamics",
-    "windowStart": 1933591.141009995,
-    "windowEnd": 1192973.3434063813,
+    "windowStart": 836280.9307278831,
+    "windowEnd": 528176.2881924871,
     "values": {
-      "bandpower_alpha": 0.1898348291009564,
-      "bandpower_beta": 0.24500008046541524,
-      "bandpower_gamma": 0.03647059987509118,
-      "spike_rate": 8.419332857822791,
-      "rms_amplitude": 2.711429584554259,
-      "burst_index": 0.39053118865096725
+      "bandpower_alpha": 0.35304886887280706,
+      "bandpower_beta": 0.22278187253777004,
+      "bandpower_gamma": 0.06258330557420419,
+      "spike_rate": 36.10447056504251,
+      "rms_amplitude": 8.093245003494932,
+      "burst_index": 0.30981433961795
     },
-    "createdAt": "2026-01-20T01:18:09.537Z"
+    "createdAt": "2026-01-20T16:47:26.415Z"
   },
   {
-    "id": "14b9c841-38ff-4e8f-8918-f4481ca6a31e",
-    "sessionId": "871d575d-2b46-4c35-b5fc-91b6db580f52",
+    "id": "0d0f13bb-3f5d-4a57-bc44-abe180b22289",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
     "featureType": "bandpower",
-    "windowStart": 1781165.8727581091,
-    "windowEnd": 1375482.145690422,
+    "windowStart": 1068630.8490641322,
+    "windowEnd": 808510.8832326813,
     "values": {
-      "bandpower_alpha": 0.4386417960738743,
-      "bandpower_beta": 0.36512688129646576,
-      "bandpower_gamma": 0.12100841158180475,
-      "spike_rate": 24.86560907303115,
-      "rms_amplitude": 94.75158353398068,
-      "burst_index": 0.7213197153257636
+      "bandpower_alpha": 0.38517937739513775,
+      "bandpower_beta": 0.32639715239561373,
+      "bandpower_gamma": 0.011067585177314565,
+      "spike_rate": 8.456128529983342,
+      "rms_amplitude": 61.346515976448536,
+      "burst_index": 0.3768641288850518
     },
-    "createdAt": "2026-01-20T01:18:13.376Z"
+    "createdAt": "2026-01-20T16:47:29.748Z"
   },
   {
-    "id": "2e862d57-7068-4575-9810-c70ce09dce51",
-    "sessionId": "871d575d-2b46-4c35-b5fc-91b6db580f52",
+    "id": "f372b438-7212-4487-823d-21402a47418e",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
     "featureType": "spike_statistics",
-    "windowStart": 1414890.2407225943,
-    "windowEnd": 866367.1775216799,
+    "windowStart": 702546.3569155292,
+    "windowEnd": 927936.4620272464,
     "values": {
-      "bandpower_alpha": 0.054002058392683794,
-      "bandpower_beta": 0.03686168449942722,
-      "bandpower_gamma": 0.16263544060840132,
-      "spike_rate": 24.8576395702924,
-      "rms_amplitude": 5.55183867603537,
-      "burst_index": 0.3933126496835062
+      "bandpower_alpha": 0.48704046663284606,
+      "bandpower_beta": 0.029650092222644277,
+      "bandpower_gamma": 0.19315335668545636,
+      "spike_rate": 42.632719418630124,
+      "rms_amplitude": 29.356470224275675,
+      "burst_index": 0.6254040096912867
     },
-    "createdAt": "2026-01-20T01:18:13.376Z"
+    "createdAt": "2026-01-20T16:47:29.748Z"
   },
   {
-    "id": "eb6a12ae-0458-4f60-ab74-128edc527c70",
-    "sessionId": "871d575d-2b46-4c35-b5fc-91b6db580f52",
+    "id": "53e58b14-c6e9-453b-8f85-72145aadfe7a",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
     "featureType": "oscillations",
-    "windowStart": 2058302.14577299,
-    "windowEnd": 2465055.4202483157,
+    "windowStart": 1428672.7427759243,
+    "windowEnd": 900199.1969986692,
     "values": {
-      "bandpower_alpha": 0.17781427794262483,
-      "bandpower_beta": 0.36579703702431854,
-      "bandpower_gamma": 0.02847342472782206,
-      "spike_rate": 37.20110236103591,
-      "rms_amplitude": 59.15860167121607,
-      "burst_index": 0.3939266528999323
+      "bandpower_alpha": 0.23702999203780295,
+      "bandpower_beta": 0.32332495687921264,
+      "bandpower_gamma": 0.2287492795642495,
+      "spike_rate": 24.66334373677884,
+      "rms_amplitude": 97.90197945346941,
+      "burst_index": 0.15505072678527815
     },
-    "createdAt": "2026-01-20T01:18:13.376Z"
+    "createdAt": "2026-01-20T16:47:29.748Z"
   },
   {
-    "id": "70b8fd22-50cd-4cf8-a74f-6312c5672d79",
-    "sessionId": "871d575d-2b46-4c35-b5fc-91b6db580f52",
+    "id": "46907398-f7cc-4e1b-9e1e-7fe348345cd8",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
     "featureType": "connectivity",
-    "windowStart": 1755651.2686881677,
-    "windowEnd": 1781759.8093578909,
+    "windowStart": 594935.1733988725,
+    "windowEnd": 1841314.5191523032,
     "values": {
-      "bandpower_alpha": 0.4596944931569783,
-      "bandpower_beta": 0.34403189985082866,
-      "bandpower_gamma": 0.25480803001367697,
-      "spike_rate": 33.56252719155167,
-      "rms_amplitude": 64.23190640480694,
-      "burst_index": 0.4907700131471764
+      "bandpower_alpha": 0.15787843474064056,
+      "bandpower_beta": 0.18878161298978757,
+      "bandpower_gamma": 0.27628250472823634,
+      "spike_rate": 5.587330822167602,
+      "rms_amplitude": 8.443282673511687,
+      "burst_index": 0.16749698989924655
     },
-    "createdAt": "2026-01-20T01:18:13.376Z"
+    "createdAt": "2026-01-20T16:47:29.748Z"
   },
   {
-    "id": "6f81aa2d-2134-4847-8c73-7bb3c3903844",
-    "sessionId": "871d575d-2b46-4c35-b5fc-91b6db580f52",
+    "id": "bdba2ee7-33ac-45ae-9d4c-356df6c68541",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
     "featureType": "temporal_dynamics",
-    "windowStart": 782888.4098198198,
-    "windowEnd": 374621.20197580033,
+    "windowStart": 528866.5157155202,
+    "windowEnd": 1513715.1906360672,
     "values": {
-      "bandpower_alpha": 0.027859926284730774,
-      "bandpower_beta": 0.004928667298308476,
-      "bandpower_gamma": 0.27403453207148554,
-      "spike_rate": 28.362259170426253,
-      "rms_amplitude": 64.7943718938484,
-      "burst_index": 0.3530255571453017
+      "bandpower_alpha": 0.17992936996913733,
+      "bandpower_beta": 0.1441923596896893,
+      "bandpower_gamma": 0.17633938503176236,
+      "spike_rate": 19.916287429517375,
+      "rms_amplitude": 89.86513319720413,
+      "burst_index": 0.5502318575571804
     },
-    "createdAt": "2026-01-20T01:18:13.376Z"
+    "createdAt": "2026-01-20T16:47:29.748Z"
   },
   {
-    "id": "8847ce3c-352d-4618-bea6-da5ffc735460",
-    "sessionId": "e0747689-f1f3-4f48-aa7c-8119527e65d5",
+    "id": "05e0d0d6-ea46-42f7-855e-e1e44e527055",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
     "featureType": "bandpower",
-    "windowStart": 670222.658135303,
-    "windowEnd": 189230.58303680737,
+    "windowStart": 216272.70966844066,
+    "windowEnd": 845366.4591989048,
     "values": {
-      "bandpower_alpha": 0.07816516881371227,
-      "bandpower_beta": 0.1162014939081776,
-      "bandpower_gamma": 0.17553158880752925,
-      "spike_rate": 21.8349080616557,
-      "rms_amplitude": 62.4273228375652,
-      "burst_index": 0.09874886852169507
+      "bandpower_alpha": 0.2267139630243017,
+      "bandpower_beta": 0.1959269367622338,
+      "bandpower_gamma": 0.08096767538856353,
+      "spike_rate": 33.842894928745,
+      "rms_amplitude": 10.790466694550327,
+      "burst_index": 0.7133122751896566
     },
-    "createdAt": "2026-01-20T01:18:17.565Z"
+    "createdAt": "2026-01-20T16:47:33.223Z"
   },
   {
-    "id": "6f2235d2-de3e-463c-a709-3a5a25a8bfee",
-    "sessionId": "e0747689-f1f3-4f48-aa7c-8119527e65d5",
+    "id": "aba32f3a-e015-48e3-9f2e-8495766ca994",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
     "featureType": "spike_statistics",
-    "windowStart": 1390813.3717639546,
-    "windowEnd": 581782.4161731801,
+    "windowStart": 1180288.9766643269,
+    "windowEnd": 1767813.38243334,
     "values": {
-      "bandpower_alpha": 0.3671772109931595,
-      "bandpower_beta": 0.16622667039987757,
-      "bandpower_gamma": 0.20133628169866924,
-      "spike_rate": 1.238034851377412,
-      "rms_amplitude": 38.76433142666127,
-      "burst_index": 0.43456868469629273
+      "bandpower_alpha": 0.050000568658786104,
+      "bandpower_beta": 0.03424307514248222,
+      "bandpower_gamma": 0.0003181474579551313,
+      "spike_rate": 4.327190004581061,
+      "rms_amplitude": 12.186181978973721,
+      "burst_index": 0.47568317097917384
     },
-    "createdAt": "2026-01-20T01:18:17.565Z"
+    "createdAt": "2026-01-20T16:47:33.223Z"
   },
   {
-    "id": "b89a086a-be71-45bc-aeec-d42831b2d799",
-    "sessionId": "e0747689-f1f3-4f48-aa7c-8119527e65d5",
+    "id": "cd1d4d35-0e9b-4972-b7de-e7872416aa8a",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
     "featureType": "oscillations",
-    "windowStart": 238565.33867509395,
-    "windowEnd": 891111.3387083068,
+    "windowStart": 2258822.091491574,
+    "windowEnd": 1032999.5266085659,
     "values": {
-      "bandpower_alpha": 0.4522771514856533,
-      "bandpower_beta": 0.0014398816867168486,
-      "bandpower_gamma": 0.2218710906130103,
-      "spike_rate": 28.303600413149287,
-      "rms_amplitude": 88.23028562490943,
-      "burst_index": 0.07808584339283975
+      "bandpower_alpha": 0.43939925010442893,
+      "bandpower_beta": 0.2356428046244421,
+      "bandpower_gamma": 0.014645164406212729,
+      "spike_rate": 44.066640622596076,
+      "rms_amplitude": 85.09050850785984,
+      "burst_index": 0.27796825197415437
     },
-    "createdAt": "2026-01-20T01:18:17.565Z"
+    "createdAt": "2026-01-20T16:47:33.223Z"
   },
   {
-    "id": "bac8bc00-9374-47ec-90c6-38b1e7e151c2",
-    "sessionId": "e0747689-f1f3-4f48-aa7c-8119527e65d5",
+    "id": "58ee7b0e-c164-4270-b8cb-7e300bfbfe59",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
     "featureType": "connectivity",
-    "windowStart": 1149943.0739828693,
-    "windowEnd": 1285463.251167442,
+    "windowStart": 1329539.8101039322,
+    "windowEnd": 787044.7364966418,
     "values": {
-      "bandpower_alpha": 0.08250663378624545,
-      "bandpower_beta": 0.14900130795259195,
-      "bandpower_gamma": 0.0043279217778105835,
-      "spike_rate": 48.17983308487545,
-      "rms_amplitude": 12.354432546968642,
-      "burst_index": 0.18810623483587766
+      "bandpower_alpha": 0.024931166688769824,
+      "bandpower_beta": 0.22311405831700243,
+      "bandpower_gamma": 0.18339057394267658,
+      "spike_rate": 2.9845542727950036,
+      "rms_amplitude": 34.49681752649527,
+      "burst_index": 0.5199580138241905
     },
-    "createdAt": "2026-01-20T01:18:17.565Z"
+    "createdAt": "2026-01-20T16:47:33.223Z"
   },
   {
-    "id": "bdbdc62a-0f24-4f72-a033-ccec2fd5c88f",
-    "sessionId": "e0747689-f1f3-4f48-aa7c-8119527e65d5",
+    "id": "e0b9b513-a12b-47ff-a8ac-3df15b0cf6c5",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
     "featureType": "temporal_dynamics",
-    "windowStart": 1233861.2015399523,
-    "windowEnd": 550396.9691586556,
+    "windowStart": 2055994.1672276522,
+    "windowEnd": 163344.30578099124,
     "values": {
-      "bandpower_alpha": 0.033084168852036355,
-      "bandpower_beta": 0.012423751620275692,
-      "bandpower_gamma": 0.2326095992919598,
-      "spike_rate": 34.046724062869195,
-      "rms_amplitude": 53.653763302529356,
-      "burst_index": 0.11382446415907861
+      "bandpower_alpha": 0.43706065450920073,
+      "bandpower_beta": 0.21477451433423936,
+      "bandpower_gamma": 0.2262184593437816,
+      "spike_rate": 12.096293505709799,
+      "rms_amplitude": 7.006239615676635,
+      "burst_index": 0.5929820603694694
     },
-    "createdAt": "2026-01-20T01:18:17.565Z"
+    "createdAt": "2026-01-20T16:47:33.223Z"
   },
   {
-    "id": "5f9e2592-8dca-4139-87e9-c1e3c1e62a8e",
-    "sessionId": "316365e9-3ac3-46e2-8cfa-7f6665aa76c9",
+    "id": "d4d881ec-80e3-43f9-a43c-7647acd24479",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
     "featureType": "bandpower",
-    "windowStart": 97114.1874876097,
-    "windowEnd": 1463297.295126521,
+    "windowStart": 308335.5983022675,
+    "windowEnd": 286356.3144116414,
     "values": {
-      "bandpower_alpha": 0.28495947576596037,
-      "bandpower_beta": 0.17870401602409036,
-      "bandpower_gamma": 0.02976196932559285,
-      "spike_rate": 21.213543593190497,
-      "rms_amplitude": 54.94912831706167,
-      "burst_index": 0.38223234206448603
+      "bandpower_alpha": 0.44468607403381366,
+      "bandpower_beta": 0.3145652178934265,
+      "bandpower_gamma": 0.16117010015998082,
+      "spike_rate": 16.052872382946738,
+      "rms_amplitude": 6.271991679195721,
+      "burst_index": 0.3848390791923455
     },
-    "createdAt": "2026-01-20T01:18:21.957Z"
+    "createdAt": "2026-01-20T16:47:36.693Z"
   },
   {
-    "id": "da37f15a-c4f4-4435-a056-070f88f07201",
-    "sessionId": "316365e9-3ac3-46e2-8cfa-7f6665aa76c9",
+    "id": "3820e06b-d873-4688-91e4-6d4dccf76964",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
     "featureType": "spike_statistics",
-    "windowStart": 1006730.4365619934,
-    "windowEnd": 783472.8483891479,
+    "windowStart": 950946.8060941487,
+    "windowEnd": 1380260.7152702324,
     "values": {
-      "bandpower_alpha": 0.3263335412832633,
-      "bandpower_beta": 0.052081703885018454,
-      "bandpower_gamma": 0.04191003965843265,
-      "spike_rate": 35.76724356304538,
-      "rms_amplitude": 59.74940117860142,
-      "burst_index": 0.4828872402482478
+      "bandpower_alpha": 0.44259928943573434,
+      "bandpower_beta": 0.3403185918497009,
+      "bandpower_gamma": 0.2167633836614891,
+      "spike_rate": 15.019775503962629,
+      "rms_amplitude": 59.01470645577369,
+      "burst_index": 0.1818664438197317
     },
-    "createdAt": "2026-01-20T01:18:21.957Z"
+    "createdAt": "2026-01-20T16:47:36.693Z"
   },
   {
-    "id": "ae808816-c233-4507-949f-e211404d562f",
-    "sessionId": "316365e9-3ac3-46e2-8cfa-7f6665aa76c9",
+    "id": "52ac22ff-de5a-48a9-ad95-026adc91f3c0",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
     "featureType": "oscillations",
-    "windowStart": 371308.11118951975,
-    "windowEnd": 285899.4082073888,
+    "windowStart": 2138479.6296835253,
+    "windowEnd": 1952044.9804951213,
     "values": {
-      "bandpower_alpha": 0.4872890018074265,
-      "bandpower_beta": 0.3337548569283782,
-      "bandpower_gamma": 0.2341545195073239,
-      "spike_rate": 8.204383969507456,
-      "rms_amplitude": 0.32489211788413463,
-      "burst_index": 0.22991966131137362
+      "bandpower_alpha": 0.014462260062736543,
+      "bandpower_beta": 0.09728439796112776,
+      "bandpower_gamma": 0.11152197356212776,
+      "spike_rate": 20.34984252764257,
+      "rms_amplitude": 93.16327392112595,
+      "burst_index": 0.05868879129413678
     },
-    "createdAt": "2026-01-20T01:18:21.957Z"
+    "createdAt": "2026-01-20T16:47:36.693Z"
   },
   {
-    "id": "c9dcf3d2-07c6-46b5-b04c-1d6bd215a6cb",
-    "sessionId": "316365e9-3ac3-46e2-8cfa-7f6665aa76c9",
+    "id": "4eb76841-45bc-4c4a-95ea-acfef91b4321",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
     "featureType": "connectivity",
-    "windowStart": 1474357.643855368,
-    "windowEnd": 1102841.5477727586,
+    "windowStart": 1109368.1402881744,
+    "windowEnd": 281832.30801370443,
     "values": {
-      "bandpower_alpha": 0.47933089122380956,
-      "bandpower_beta": 0.11589615656299986,
-      "bandpower_gamma": 0.2478253992605264,
-      "spike_rate": 8.894483485734394,
-      "rms_amplitude": 85.51451135914515,
-      "burst_index": 0.542290912162412
+      "bandpower_alpha": 0.044743182629751854,
+      "bandpower_beta": 0.21502968570931433,
+      "bandpower_gamma": 0.289300647236878,
+      "spike_rate": 28.645371969738463,
+      "rms_amplitude": 22.772423840194488,
+      "burst_index": 0.43227702479686825
     },
-    "createdAt": "2026-01-20T01:18:21.957Z"
+    "createdAt": "2026-01-20T16:47:36.693Z"
   },
   {
-    "id": "b64483ed-c96e-4ab9-a54e-bd96ab7593dd",
-    "sessionId": "316365e9-3ac3-46e2-8cfa-7f6665aa76c9",
+    "id": "1499b952-0050-4589-a8cc-656aa5e6a3ec",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
     "featureType": "temporal_dynamics",
-    "windowStart": 670934.244605184,
-    "windowEnd": 1424324.7214805319,
+    "windowStart": 878143.9227943984,
+    "windowEnd": 1574004.1859770562,
     "values": {
-      "bandpower_alpha": 0.4310197598356129,
-      "bandpower_beta": 0.364425399672985,
-      "bandpower_gamma": 0.13574020651926946,
-      "spike_rate": 48.86941539241442,
-      "rms_amplitude": 91.0810715247647,
-      "burst_index": 0.5151553808425998
+      "bandpower_alpha": 0.277654879381806,
+      "bandpower_beta": 0.09001048424741605,
+      "bandpower_gamma": 0.11896372393955135,
+      "spike_rate": 27.111582989236382,
+      "rms_amplitude": 20.949683846690604,
+      "burst_index": 0.627191016027105
     },
-    "createdAt": "2026-01-20T01:18:21.957Z"
+    "createdAt": "2026-01-20T16:47:36.693Z"
   },
   {
-    "id": "6567d076-3041-4fd3-a8a8-2ceb2c8148cd",
-    "sessionId": "45d9062b-8c0a-4829-b812-9c629092ecf8",
+    "id": "f0a500d2-373f-4818-a977-9147070a3a48",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
     "featureType": "bandpower",
-    "windowStart": 827548.1161578163,
-    "windowEnd": 1594863.7748923409,
+    "windowStart": 1919455.412210448,
+    "windowEnd": 1016522.531071124,
     "values": {
-      "bandpower_alpha": 0.11962608573292388,
-      "bandpower_beta": 0.15233219933332676,
-      "bandpower_gamma": 0.06807905075498644,
-      "spike_rate": 47.79566935763564,
-      "rms_amplitude": 23.634433103107444,
-      "burst_index": 0.6915070613840073
+      "bandpower_alpha": 0.010967720828644278,
+      "bandpower_beta": 0.059701049994509425,
+      "bandpower_gamma": 0.17646595387344893,
+      "spike_rate": 24.464361692780656,
+      "rms_amplitude": 89.86566131249496,
+      "burst_index": 0.4831410414846124
     },
-    "createdAt": "2026-01-20T01:18:25.939Z"
+    "createdAt": "2026-01-20T16:47:40.146Z"
   },
   {
-    "id": "6da46c8a-5893-418a-9b85-4e821c755664",
-    "sessionId": "45d9062b-8c0a-4829-b812-9c629092ecf8",
+    "id": "69b0ad23-5e0a-4e93-847b-73828bc7f808",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
     "featureType": "spike_statistics",
-    "windowStart": 796034.2170900187,
-    "windowEnd": 419953.6228120958,
+    "windowStart": 181836.6535155274,
+    "windowEnd": 1804030.132948951,
     "values": {
-      "bandpower_alpha": 0.45077093271256163,
-      "bandpower_beta": 0.3515795165849738,
-      "bandpower_gamma": 0.23614753982395634,
-      "spike_rate": 34.64325428635156,
-      "rms_amplitude": 9.606783105748317,
-      "burst_index": 0.6350230585743692
+      "bandpower_alpha": 0.13173325210562548,
+      "bandpower_beta": 0.07623653140627368,
+      "bandpower_gamma": 0.19984427148329317,
+      "spike_rate": 36.11993274365698,
+      "rms_amplitude": 68.19731876939383,
+      "burst_index": 0.5903528848945568
     },
-    "createdAt": "2026-01-20T01:18:25.939Z"
+    "createdAt": "2026-01-20T16:47:40.146Z"
   },
   {
-    "id": "b98116eb-d340-4812-bcba-3c5b38e3bf53",
-    "sessionId": "45d9062b-8c0a-4829-b812-9c629092ecf8",
+    "id": "fc6f1536-d301-48c4-80b3-800ad9710089",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
     "featureType": "oscillations",
-    "windowStart": 58974.158437924416,
-    "windowEnd": 1420308.7121947063,
+    "windowStart": 753290.2756310487,
+    "windowEnd": 492094.257697799,
     "values": {
-      "bandpower_alpha": 0.10616042529902625,
-      "bandpower_beta": 0.2506640760539285,
-      "bandpower_gamma": 0.2757417973334277,
-      "spike_rate": 13.30610548618909,
-      "rms_amplitude": 8.82934005750271,
-      "burst_index": 0.5368501638762367
+      "bandpower_alpha": 0.40167785871045447,
+      "bandpower_beta": 0.017122563678919,
+      "bandpower_gamma": 0.22481869950746194,
+      "spike_rate": 34.75278030985297,
+      "rms_amplitude": 12.461400861864934,
+      "burst_index": 0.5210769685791616
     },
-    "createdAt": "2026-01-20T01:18:25.939Z"
+    "createdAt": "2026-01-20T16:47:40.146Z"
   },
   {
-    "id": "acd9d997-8745-4598-a6e3-442551985764",
-    "sessionId": "45d9062b-8c0a-4829-b812-9c629092ecf8",
+    "id": "9c300968-9826-4bd9-a090-8bca8151d3a2",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
     "featureType": "connectivity",
-    "windowStart": 1046839.3754472934,
-    "windowEnd": 347356.519456339,
+    "windowStart": 892296.4056280551,
+    "windowEnd": 1047600.8858106425,
     "values": {
-      "bandpower_alpha": 0.3472283769096549,
-      "bandpower_beta": 0.0021989081782733955,
-      "bandpower_gamma": 0.23761305135085425,
-      "spike_rate": 48.64446638714368,
-      "rms_amplitude": 35.53720010489456,
-      "burst_index": 0.6971930015551359
+      "bandpower_alpha": 0.3519490909947731,
+      "bandpower_beta": 0.3766400567750952,
+      "bandpower_gamma": 0.10911112168990446,
+      "spike_rate": 34.97874212917114,
+      "rms_amplitude": 17.263767227526206,
+      "burst_index": 0.26363504360502754
     },
-    "createdAt": "2026-01-20T01:18:25.939Z"
+    "createdAt": "2026-01-20T16:47:40.146Z"
   },
   {
-    "id": "97591d0e-950f-465d-bc52-9f640fcd69d5",
-    "sessionId": "45d9062b-8c0a-4829-b812-9c629092ecf8",
+    "id": "b7623e21-0328-40d4-a95b-ee5b0c150077",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
     "featureType": "temporal_dynamics",
-    "windowStart": 34211.04314256481,
-    "windowEnd": 973376.815824058,
+    "windowStart": 1100796.0750532788,
+    "windowEnd": 1842994.93113592,
     "values": {
-      "bandpower_alpha": 0.3617923274204934,
-      "bandpower_beta": 0.3526726468639342,
-      "bandpower_gamma": 0.2900630837838415,
-      "spike_rate": 15.812082746367684,
-      "rms_amplitude": 92.3098241503687,
-      "burst_index": 0.08523613508410346
+      "bandpower_alpha": 0.3673113755679195,
+      "bandpower_beta": 0.2537560747429257,
+      "bandpower_gamma": 0.14364983060711112,
+      "spike_rate": 26.784457681167318,
+      "rms_amplitude": 19.54130836252976,
+      "burst_index": 0.6000914078720273
     },
-    "createdAt": "2026-01-20T01:18:25.939Z"
+    "createdAt": "2026-01-20T16:47:40.146Z"
   },
   {
-    "id": "602034ed-d2dd-4b61-849c-3f87cedb0408",
-    "sessionId": "7b85ebdb-57fe-4a48-b218-2af48508edc4",
+    "id": "e45634f2-5e81-4f6a-84a0-b17cd900079f",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
     "featureType": "bandpower",
-    "windowStart": 1599856.3208696858,
-    "windowEnd": 189407.69445186248,
+    "windowStart": 673898.0687492713,
+    "windowEnd": 187834.7645216313,
     "values": {
-      "bandpower_alpha": 0.3582863400727563,
-      "bandpower_beta": 0.26455502697965844,
-      "bandpower_gamma": 0.2102537754868439,
-      "spike_rate": 44.34256537812883,
-      "rms_amplitude": 46.13567769872511,
-      "burst_index": 0.24702871818886135
+      "bandpower_alpha": 0.04661804670315395,
+      "bandpower_beta": 0.28979786356778,
+      "bandpower_gamma": 0.14345350854252023,
+      "spike_rate": 45.87424495127445,
+      "rms_amplitude": 14.380081945596789,
+      "burst_index": 0.3517113442477996
     },
-    "createdAt": "2026-01-20T01:18:29.784Z"
+    "createdAt": "2026-01-20T16:47:43.907Z"
   },
   {
-    "id": "43a4eb7b-d55a-4a98-9158-88caeb2f3c37",
-    "sessionId": "7b85ebdb-57fe-4a48-b218-2af48508edc4",
+    "id": "ef5661f5-c222-4965-9983-0942b5b559ca",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
     "featureType": "spike_statistics",
-    "windowStart": 1074240.1692330795,
-    "windowEnd": 151350.46974573343,
+    "windowStart": 551592.1524091341,
+    "windowEnd": 631420.3912469583,
     "values": {
-      "bandpower_alpha": 0.259408014149218,
-      "bandpower_beta": 0.23096313766881604,
-      "bandpower_gamma": 0.054384692582617356,
-      "spike_rate": 30.881566639145664,
-      "rms_amplitude": 4.8187343468806265,
-      "burst_index": 0.3288375837510211
+      "bandpower_alpha": 0.3590978896070064,
+      "bandpower_beta": 0.21483150153811598,
+      "bandpower_gamma": 0.01547928576972497,
+      "spike_rate": 16.23357439726464,
+      "rms_amplitude": 20.052829978627095,
+      "burst_index": 0.4263314753160419
     },
-    "createdAt": "2026-01-20T01:18:29.784Z"
+    "createdAt": "2026-01-20T16:47:43.907Z"
   },
   {
-    "id": "2ecf8fb7-b397-4b7c-b11f-17157af370d9",
-    "sessionId": "7b85ebdb-57fe-4a48-b218-2af48508edc4",
+    "id": "f2b8c113-eaa4-449d-8d91-90119316dc6d",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
     "featureType": "oscillations",
-    "windowStart": 1430796.5871867125,
-    "windowEnd": 1262103.2527817194,
+    "windowStart": 1166835.378046255,
+    "windowEnd": 1222829.2551336635,
     "values": {
-      "bandpower_alpha": 0.03639313906965025,
-      "bandpower_beta": 0.17170765041803043,
-      "bandpower_gamma": 0.1118008777684442,
-      "spike_rate": 2.3960247351452635,
-      "rms_amplitude": 88.10566303709975,
-      "burst_index": 0.7571805117712187
+      "bandpower_alpha": 0.48192761895640956,
+      "bandpower_beta": 0.023069981220788183,
+      "bandpower_gamma": 0.2639427458792937,
+      "spike_rate": 25.222506720020743,
+      "rms_amplitude": 47.54469514270805,
+      "burst_index": 0.6835161336415295
     },
-    "createdAt": "2026-01-20T01:18:29.784Z"
+    "createdAt": "2026-01-20T16:47:43.907Z"
   },
   {
-    "id": "4b26dc36-4b59-404d-abaa-7fa631e08afb",
-    "sessionId": "7b85ebdb-57fe-4a48-b218-2af48508edc4",
+    "id": "6b914220-b3ca-44f7-ba51-402dcbaffdf4",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
     "featureType": "connectivity",
-    "windowStart": 1247508.9803134252,
-    "windowEnd": 1021229.8766522098,
+    "windowStart": 248310.5426481431,
+    "windowEnd": 1463253.1125050753,
     "values": {
-      "bandpower_alpha": 0.1691414303509069,
-      "bandpower_beta": 0.29449745667999777,
-      "bandpower_gamma": 0.20696737838389204,
-      "spike_rate": 6.652570863064311,
-      "rms_amplitude": 13.367696882767731,
-      "burst_index": 0.3080939660314579
+      "bandpower_alpha": 0.021208704027057212,
+      "bandpower_beta": 0.10660083316398108,
+      "bandpower_gamma": 0.1511992268130512,
+      "spike_rate": 40.71134974490677,
+      "rms_amplitude": 69.06224348210725,
+      "burst_index": 0.5291731632902271
     },
-    "createdAt": "2026-01-20T01:18:29.784Z"
+    "createdAt": "2026-01-20T16:47:43.907Z"
   },
   {
-    "id": "380a8685-57b7-4ba2-86e6-f6cb0d74e488",
-    "sessionId": "7b85ebdb-57fe-4a48-b218-2af48508edc4",
+    "id": "9ac5976f-e88c-47ef-bb47-7dd2c0edf4b0",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
     "featureType": "temporal_dynamics",
-    "windowStart": 1479345.5550946079,
-    "windowEnd": 355032.3672299196,
+    "windowStart": 1023001.5056901608,
+    "windowEnd": 392942.37703920435,
     "values": {
-      "bandpower_alpha": 0.0959919736866287,
-      "bandpower_beta": 0.0984872120104746,
-      "bandpower_gamma": 0.02232796360642637,
-      "spike_rate": 28.813384462038382,
-      "rms_amplitude": 79.56859223660024,
-      "burst_index": 0.2652699518346017
+      "bandpower_alpha": 0.02372472701709083,
+      "bandpower_beta": 0.09215082195309687,
+      "bandpower_gamma": 0.009951075720313196,
+      "spike_rate": 1.4281106599720705,
+      "rms_amplitude": 33.229641343386064,
+      "burst_index": 0.7252718665765688
     },
-    "createdAt": "2026-01-20T01:18:29.784Z"
+    "createdAt": "2026-01-20T16:47:43.907Z"
   },
   {
-    "id": "625434ab-9829-462b-b3f7-9a7b02b6e2aa",
-    "sessionId": "a419f168-c968-48ae-baa8-3d8e0b7abeb4",
+    "id": "84eb6fc2-49a0-4ada-bac7-f3f18209a61f",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
     "featureType": "bandpower",
-    "windowStart": 359843.2378063175,
-    "windowEnd": 795625.0675303746,
+    "windowStart": 25632.110871724537,
+    "windowEnd": 1683624.378339312,
     "values": {
-      "bandpower_alpha": 0.005761412904432106,
-      "bandpower_beta": 0.0379430209365367,
-      "bandpower_gamma": 0.036020851698037856,
-      "spike_rate": 11.954189738110665,
-      "rms_amplitude": 69.02490347788483,
-      "burst_index": 0.3437738312423134
+      "bandpower_alpha": 0.20687772212293987,
+      "bandpower_beta": 0.06791537733845061,
+      "bandpower_gamma": 0.10478908214228334,
+      "spike_rate": 47.593393961268504,
+      "rms_amplitude": 69.68919153474384,
+      "burst_index": 0.303178322615541
     },
-    "createdAt": "2026-01-20T01:18:33.617Z"
+    "createdAt": "2026-01-20T16:47:47.513Z"
   },
   {
-    "id": "8a808c69-83c1-40c2-b90c-d219c169085c",
-    "sessionId": "a419f168-c968-48ae-baa8-3d8e0b7abeb4",
+    "id": "824c80d6-99a9-4bc5-a94d-eda1d6c02e99",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
     "featureType": "spike_statistics",
-    "windowStart": 994920.4195825809,
-    "windowEnd": 976817.1614849891,
+    "windowStart": 1582980.0795718634,
+    "windowEnd": 504258.73607833387,
     "values": {
-      "bandpower_alpha": 0.1409387346968578,
-      "bandpower_beta": 0.04323233387619494,
-      "bandpower_gamma": 0.08840411057874444,
-      "spike_rate": 1.3060530288347305,
-      "rms_amplitude": 89.59762642651236,
-      "burst_index": 0.34852405058633806
+      "bandpower_alpha": 0.04354457838390258,
+      "bandpower_beta": 0.14243080995804114,
+      "bandpower_gamma": 0.15041455513022056,
+      "spike_rate": 16.652573686825058,
+      "rms_amplitude": 78.69595946845187,
+      "burst_index": 0.25275943757542424
     },
-    "createdAt": "2026-01-20T01:18:33.617Z"
+    "createdAt": "2026-01-20T16:47:47.513Z"
   },
   {
-    "id": "71a18f0f-38f7-4f24-b8d7-51d400278877",
-    "sessionId": "a419f168-c968-48ae-baa8-3d8e0b7abeb4",
+    "id": "458c878b-90c6-4340-aac4-2aa53a1e0dae",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
     "featureType": "oscillations",
-    "windowStart": 1103292.092256041,
-    "windowEnd": 116406.04713549333,
+    "windowStart": 1639789.58165614,
+    "windowEnd": 1761242.3071138111,
     "values": {
-      "bandpower_alpha": 0.017667175703987348,
-      "bandpower_beta": 0.028555282772120983,
-      "bandpower_gamma": 0.15354844075061552,
-      "spike_rate": 47.850652917970436,
-      "rms_amplitude": 18.927660936185966,
-      "burst_index": 0.6051383037791993
+      "bandpower_alpha": 0.21050440703448758,
+      "bandpower_beta": 0.18882409698793312,
+      "bandpower_gamma": 0.18183422799349794,
+      "spike_rate": 11.191546049503332,
+      "rms_amplitude": 78.8480808840186,
+      "burst_index": 0.3042103356878796
     },
-    "createdAt": "2026-01-20T01:18:33.617Z"
+    "createdAt": "2026-01-20T16:47:47.513Z"
   },
   {
-    "id": "34f503a1-7f0c-40a0-8066-1b1400412bb7",
-    "sessionId": "a419f168-c968-48ae-baa8-3d8e0b7abeb4",
+    "id": "520f1c97-9742-4242-b1a7-5a35cb3c6fa3",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
     "featureType": "connectivity",
-    "windowStart": 30251.417950041756,
-    "windowEnd": 991531.4985725788,
+    "windowStart": 511818.8028302518,
+    "windowEnd": 815474.0052820954,
     "values": {
-      "bandpower_alpha": 0.29904998864821686,
-      "bandpower_beta": 0.1599692307111627,
-      "bandpower_gamma": 0.24727121020971052,
-      "spike_rate": 18.08792897464174,
-      "rms_amplitude": 57.29043619732466,
-      "burst_index": 0.6051434574893664
+      "bandpower_alpha": 0.28632996360416263,
+      "bandpower_beta": 0.3027310222789435,
+      "bandpower_gamma": 0.24260875975609653,
+      "spike_rate": 2.468603898377064,
+      "rms_amplitude": 65.78010822428284,
+      "burst_index": 0.25306949177339355
     },
-    "createdAt": "2026-01-20T01:18:33.617Z"
+    "createdAt": "2026-01-20T16:47:47.513Z"
   },
   {
-    "id": "bec07f2a-9f3f-45d3-a680-4a3a92afd8ee",
-    "sessionId": "a419f168-c968-48ae-baa8-3d8e0b7abeb4",
+    "id": "acf31c28-ea5e-478b-8cef-57de5128e80b",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
     "featureType": "temporal_dynamics",
-    "windowStart": 243007.8089865433,
-    "windowEnd": 631135.5341270263,
+    "windowStart": 999100.0459740899,
+    "windowEnd": 1524202.1305390142,
     "values": {
-      "bandpower_alpha": 0.21349626030282765,
-      "bandpower_beta": 0.04922040808993958,
-      "bandpower_gamma": 0.21368214254210652,
-      "spike_rate": 47.97724104603008,
-      "rms_amplitude": 39.49101152463521,
-      "burst_index": 0.5116937827345442
+      "bandpower_alpha": 0.022603281184091828,
+      "bandpower_beta": 0.20869645602912446,
+      "bandpower_gamma": 0.06867523332061669,
+      "spike_rate": 5.18256811212594,
+      "rms_amplitude": 4.585089333388104,
+      "burst_index": 0.34805664954003235
     },
-    "createdAt": "2026-01-20T01:18:33.617Z"
+    "createdAt": "2026-01-20T16:47:47.513Z"
   },
   {
-    "id": "d768e863-579c-428b-b0e3-cb7f889dd9cf",
-    "sessionId": "c0f63e82-ba2c-4c17-b61e-ffcfe802b4ae",
+    "id": "1ec9f458-cb36-4997-9129-f8cc663c86a2",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
     "featureType": "bandpower",
-    "windowStart": 103019.63320637932,
-    "windowEnd": 44651.585480530506,
+    "windowStart": 1383331.5668383443,
+    "windowEnd": 363795.2173227024,
     "values": {
-      "bandpower_alpha": 0.12601455424004848,
-      "bandpower_beta": 0.12608635683161148,
-      "bandpower_gamma": 0.041987807845782155,
-      "spike_rate": 15.942669724405967,
-      "rms_amplitude": 91.52696841540846,
-      "burst_index": 0.36438663581746555
+      "bandpower_alpha": 0.06207318226831404,
+      "bandpower_beta": 0.16291114110832636,
+      "bandpower_gamma": 0.19208800183323543,
+      "spike_rate": 38.57554826324928,
+      "rms_amplitude": 92.64828615236355,
+      "burst_index": 0.33745758657000735
     },
-    "createdAt": "2026-01-20T01:18:37.615Z"
+    "createdAt": "2026-01-20T16:47:51.120Z"
   },
   {
-    "id": "a3efb296-221a-488a-8c0e-9593328d109e",
-    "sessionId": "c0f63e82-ba2c-4c17-b61e-ffcfe802b4ae",
+    "id": "6d2d6f18-f884-4c91-9ce3-9fb492115e6a",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
     "featureType": "spike_statistics",
-    "windowStart": 823405.1013216197,
-    "windowEnd": 1171728.4240905233,
+    "windowStart": 736597.3893670217,
+    "windowEnd": 85376.78497138129,
     "values": {
-      "bandpower_alpha": 0.30619036112957776,
-      "bandpower_beta": 0.08230046226407409,
-      "bandpower_gamma": 0.18162142744885104,
-      "spike_rate": 40.70692952344643,
-      "rms_amplitude": 0.2579127543067994,
-      "burst_index": 0.10383309795296275
+      "bandpower_alpha": 0.10868781746861789,
+      "bandpower_beta": 0.14357525474596322,
+      "bandpower_gamma": 0.21296538775594664,
+      "spike_rate": 39.968998054790575,
+      "rms_amplitude": 46.42367436441739,
+      "burst_index": 0.17870154504701344
     },
-    "createdAt": "2026-01-20T01:18:37.615Z"
+    "createdAt": "2026-01-20T16:47:51.120Z"
   },
   {
-    "id": "131d2716-d636-4c74-a690-95c134ad83ef",
-    "sessionId": "c0f63e82-ba2c-4c17-b61e-ffcfe802b4ae",
+    "id": "07a672b9-d798-4713-b7c6-1363f3a557ca",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
     "featureType": "oscillations",
-    "windowStart": 1633861.846008076,
-    "windowEnd": 1240248.909199086,
+    "windowStart": 1410958.8702496737,
+    "windowEnd": 166567.42568981063,
     "values": {
-      "bandpower_alpha": 0.3933572849996757,
-      "bandpower_beta": 0.058476514798294146,
-      "bandpower_gamma": 0.20161289870827231,
-      "spike_rate": 5.717215410746224,
-      "rms_amplitude": 46.416089293380836,
-      "burst_index": 0.5171228225984289
+      "bandpower_alpha": 0.08801803776589845,
+      "bandpower_beta": 0.38695558700448524,
+      "bandpower_gamma": 0.19928367520491877,
+      "spike_rate": 0.07571796413224918,
+      "rms_amplitude": 29.746578926996836,
+      "burst_index": 0.4960255455222459
     },
-    "createdAt": "2026-01-20T01:18:37.615Z"
+    "createdAt": "2026-01-20T16:47:51.120Z"
   },
   {
-    "id": "d9fd7446-cbac-4d6b-9c21-46d286090ff4",
-    "sessionId": "c0f63e82-ba2c-4c17-b61e-ffcfe802b4ae",
+    "id": "0dfe9fce-6b3f-499d-9e6c-75c69195ca2c",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
     "featureType": "connectivity",
-    "windowStart": 2078932.6722603028,
-    "windowEnd": 1331612.4515128403,
+    "windowStart": 690567.1956270116,
+    "windowEnd": 643704.9257359126,
     "values": {
-      "bandpower_alpha": 0.49104360692667137,
-      "bandpower_beta": 0.12112889970429218,
-      "bandpower_gamma": 0.21674716669659028,
-      "spike_rate": 33.05272674863405,
-      "rms_amplitude": 88.11014817332502,
-      "burst_index": 0.5451507474406352
+      "bandpower_alpha": 0.4992911279661869,
+      "bandpower_beta": 0.18048999618695324,
+      "bandpower_gamma": 0.15365045283544773,
+      "spike_rate": 32.680376428165644,
+      "rms_amplitude": 82.57939774349504,
+      "burst_index": 0.6668184881390866
     },
-    "createdAt": "2026-01-20T01:18:37.615Z"
+    "createdAt": "2026-01-20T16:47:51.120Z"
   },
   {
-    "id": "c1caf636-9812-4f18-8549-c2d9dfe5561a",
-    "sessionId": "c0f63e82-ba2c-4c17-b61e-ffcfe802b4ae",
+    "id": "fdcc4f58-c3ba-40c8-9518-6f13886aeb24",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
     "featureType": "temporal_dynamics",
-    "windowStart": 581138.2785040067,
-    "windowEnd": 1112459.2929971118,
+    "windowStart": 1068750.935786708,
+    "windowEnd": 640050.8584173839,
     "values": {
-      "bandpower_alpha": 0.14805913729685893,
-      "bandpower_beta": 0.17068365733770127,
-      "bandpower_gamma": 0.034406419985238565,
-      "spike_rate": 39.10533022944031,
-      "rms_amplitude": 90.71272897363511,
-      "burst_index": 0.4704809868890172
+      "bandpower_alpha": 0.08115894412002944,
+      "bandpower_beta": 0.32776549044407627,
+      "bandpower_gamma": 0.04282936557700261,
+      "spike_rate": 18.392627040913567,
+      "rms_amplitude": 38.05833049619589,
+      "burst_index": 0.540312059084313
     },
-    "createdAt": "2026-01-20T01:18:37.615Z"
+    "createdAt": "2026-01-20T16:47:51.120Z"
   },
   {
-    "id": "3ffba32a-f9cc-44ec-9756-605bc39dbbfa",
-    "sessionId": "c0265f70-820d-4939-b122-d0e200de8dbf",
+    "id": "97bda343-30c9-4b68-bb72-f8a4d161c0dd",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
     "featureType": "bandpower",
-    "windowStart": 635653.623754779,
-    "windowEnd": 477779.9955314167,
+    "windowStart": 1495300.4278363534,
+    "windowEnd": 2272564.77421254,
     "values": {
-      "bandpower_alpha": 0.03861223199871211,
-      "bandpower_beta": 0.06062799357018021,
-      "bandpower_gamma": 0.04985411607380443,
-      "spike_rate": 36.77082471583658,
-      "rms_amplitude": 27.61982458071919,
-      "burst_index": 0.48848022469408864
+      "bandpower_alpha": 0.3287028273462582,
+      "bandpower_beta": 0.10075245570928085,
+      "bandpower_gamma": 0.12719169325098087,
+      "spike_rate": 20.230169859699643,
+      "rms_amplitude": 31.46348426062724,
+      "burst_index": 0.5177706311225881
     },
-    "createdAt": "2026-01-20T01:18:41.495Z"
+    "createdAt": "2026-01-20T16:47:54.889Z"
   },
   {
-    "id": "317706dc-fc75-4f6e-bae9-2a14f6e88cc8",
-    "sessionId": "c0265f70-820d-4939-b122-d0e200de8dbf",
+    "id": "fc9d80bf-1c04-48a4-97c3-1179157ce056",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
     "featureType": "spike_statistics",
-    "windowStart": 968022.7269486518,
-    "windowEnd": 524243.9652035748,
+    "windowStart": 1742394.3590203475,
+    "windowEnd": 1416289.2370639595,
     "values": {
-      "bandpower_alpha": 0.03620202524956606,
-      "bandpower_beta": 0.28891162609124416,
-      "bandpower_gamma": 0.14834063644275627,
-      "spike_rate": 16.780046085053,
-      "rms_amplitude": 64.40662814382152,
-      "burst_index": 0.26472994303132874
+      "bandpower_alpha": 0.11401673478979524,
+      "bandpower_beta": 0.17944916302978858,
+      "bandpower_gamma": 0.0801778095998158,
+      "spike_rate": 23.44289605288403,
+      "rms_amplitude": 44.75719104375613,
+      "burst_index": 0.3716945157884064
     },
-    "createdAt": "2026-01-20T01:18:41.495Z"
+    "createdAt": "2026-01-20T16:47:54.889Z"
   },
   {
-    "id": "b3d8a354-301b-4b86-ac98-79ca71ba2613",
-    "sessionId": "c0265f70-820d-4939-b122-d0e200de8dbf",
+    "id": "8cf45a42-ec88-4aab-8f7b-96db7530536f",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
     "featureType": "oscillations",
-    "windowStart": 1056787.6283426392,
-    "windowEnd": 598725.1205194978,
+    "windowStart": 285804.92192962335,
+    "windowEnd": 1075108.5512007426,
     "values": {
-      "bandpower_alpha": 0.029526043698836157,
-      "bandpower_beta": 0.15665102301583567,
-      "bandpower_gamma": 0.12438951751397702,
-      "spike_rate": 22.810158009568138,
-      "rms_amplitude": 2.516044332163614,
-      "burst_index": 0.009088367342959992
+      "bandpower_alpha": 0.08201023660861739,
+      "bandpower_beta": 0.31096813391015865,
+      "bandpower_gamma": 0.1897896519464066,
+      "spike_rate": 38.162575047082605,
+      "rms_amplitude": 39.18876679430001,
+      "burst_index": 0.19570995330350308
     },
-    "createdAt": "2026-01-20T01:18:41.495Z"
+    "createdAt": "2026-01-20T16:47:54.889Z"
   },
   {
-    "id": "add3d309-8fe1-422b-b860-f4149b996a20",
-    "sessionId": "c0265f70-820d-4939-b122-d0e200de8dbf",
+    "id": "dec746a9-cbb7-4951-8ec3-04d76fdfa45f",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
     "featureType": "connectivity",
-    "windowStart": 821993.6051350161,
-    "windowEnd": 980083.1625090848,
+    "windowStart": 1426294.2766342002,
+    "windowEnd": 438721.3193376039,
     "values": {
-      "bandpower_alpha": 0.1665936062617731,
-      "bandpower_beta": 0.2572462325547535,
-      "bandpower_gamma": 0.29777509196799357,
-      "spike_rate": 17.90338161087578,
-      "rms_amplitude": 51.15403119847925,
-      "burst_index": 0.23191838987505592
+      "bandpower_alpha": 0.07232102686907904,
+      "bandpower_beta": 0.26893191062676264,
+      "bandpower_gamma": 0.15298662347562622,
+      "spike_rate": 35.92764496304414,
+      "rms_amplitude": 29.583674611884646,
+      "burst_index": 0.0004903779841015421
     },
-    "createdAt": "2026-01-20T01:18:41.495Z"
+    "createdAt": "2026-01-20T16:47:54.889Z"
   },
   {
-    "id": "e7615f36-f903-40c0-bec8-700b28dd6ad2",
-    "sessionId": "c0265f70-820d-4939-b122-d0e200de8dbf",
+    "id": "4a73b24e-5045-4acb-84f5-aba891384111",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
     "featureType": "temporal_dynamics",
-    "windowStart": 512564.3658752606,
-    "windowEnd": 24017.685314034923,
+    "windowStart": 975714.3839890414,
+    "windowEnd": 1498484.6856195163,
     "values": {
-      "bandpower_alpha": 0.3886097605628174,
-      "bandpower_beta": 0.34921372618095337,
-      "bandpower_gamma": 0.0363097797309915,
-      "spike_rate": 15.954223651643895,
-      "rms_amplitude": 14.107864130692072,
-      "burst_index": 0.7054158762238218
+      "bandpower_alpha": 0.4275688106407789,
+      "bandpower_beta": 0.049036977669212695,
+      "bandpower_gamma": 0.14861657852551555,
+      "spike_rate": 15.296496075701072,
+      "rms_amplitude": 47.26331571560103,
+      "burst_index": 0.0850833108955035
     },
-    "createdAt": "2026-01-20T01:18:41.495Z"
+    "createdAt": "2026-01-20T16:47:54.889Z"
   },
   {
-    "id": "7d96b52b-e1d2-4f58-9300-7cde925e0559",
-    "sessionId": "77efba0e-c366-43d2-9774-5e038146fdbc",
+    "id": "48bf1b17-04eb-4b1a-9c07-e8d1b2ce45d3",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
     "featureType": "bandpower",
-    "windowStart": 609112.7969599332,
-    "windowEnd": 1174369.0923763448,
+    "windowStart": 429578.1446850912,
+    "windowEnd": 985618.4547588367,
     "values": {
-      "bandpower_alpha": 0.1652240189661004,
-      "bandpower_beta": 0.2922658453955389,
-      "bandpower_gamma": 0.16444639169308853,
-      "spike_rate": 36.58218709916253,
-      "rms_amplitude": 43.422953422018495,
-      "burst_index": 0.6268879044777903
+      "bandpower_alpha": 0.33692526207272155,
+      "bandpower_beta": 0.19948372565483805,
+      "bandpower_gamma": 0.0011577782926593726,
+      "spike_rate": 22.39356073405856,
+      "rms_amplitude": 40.37269451687608,
+      "burst_index": 0.306655356235798
     },
-    "createdAt": "2026-01-20T01:18:45.383Z"
+    "createdAt": "2026-01-20T16:47:58.818Z"
   },
   {
-    "id": "c067d88d-96cd-4085-9b7f-9090a18188ba",
-    "sessionId": "77efba0e-c366-43d2-9774-5e038146fdbc",
+    "id": "6d4cd387-34f0-4b89-9258-940933151270",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
     "featureType": "spike_statistics",
-    "windowStart": 160338.48547375645,
-    "windowEnd": 654441.3410416954,
+    "windowStart": 1255160.2696015295,
+    "windowEnd": 2008003.6712068163,
     "values": {
-      "bandpower_alpha": 0.3294582392597891,
-      "bandpower_beta": 0.09869477011351445,
-      "bandpower_gamma": 0.13851731592543925,
-      "spike_rate": 27.25694632605751,
-      "rms_amplitude": 8.611547002237362,
-      "burst_index": 0.33381786023895454
+      "bandpower_alpha": 0.16723383162936112,
+      "bandpower_beta": 0.03855768119443362,
+      "bandpower_gamma": 0.06462194240928062,
+      "spike_rate": 1.9145318835253833,
+      "rms_amplitude": 18.13657360697356,
+      "burst_index": 0.5835145777348204
     },
-    "createdAt": "2026-01-20T01:18:45.383Z"
+    "createdAt": "2026-01-20T16:47:58.818Z"
   },
   {
-    "id": "1f5fb6e2-6d02-4569-8b5a-e984c7ca8d32",
-    "sessionId": "77efba0e-c366-43d2-9774-5e038146fdbc",
+    "id": "4b2b5990-9867-42b9-8ce7-5dd29516cc1b",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
     "featureType": "oscillations",
-    "windowStart": 928527.3595138749,
-    "windowEnd": 1073539.2239382174,
+    "windowStart": 2290215.6895678747,
+    "windowEnd": 1215755.4009211776,
     "values": {
-      "bandpower_alpha": 0.4431316585032128,
-      "bandpower_beta": 0.19821586297843005,
-      "bandpower_gamma": 0.2951133157958211,
-      "spike_rate": 26.718718133936537,
-      "rms_amplitude": 46.87066100990438,
-      "burst_index": 0.18457229291341318
+      "bandpower_alpha": 0.3129333305991103,
+      "bandpower_beta": 0.13712407285366268,
+      "bandpower_gamma": 0.001634679915027659,
+      "spike_rate": 30.255364168177344,
+      "rms_amplitude": 62.19923518219701,
+      "burst_index": 0.3199161900398485
     },
-    "createdAt": "2026-01-20T01:18:45.383Z"
+    "createdAt": "2026-01-20T16:47:58.818Z"
   },
   {
-    "id": "2ff13b4b-fd56-4946-b335-f28d77ede8fb",
-    "sessionId": "77efba0e-c366-43d2-9774-5e038146fdbc",
+    "id": "f88399e5-0211-4224-a5a6-e0d51ff97eb8",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
     "featureType": "connectivity",
-    "windowStart": 1306387.7225578462,
-    "windowEnd": 768152.2942717174,
+    "windowStart": 499338.9913141239,
+    "windowEnd": 635801.0099341364,
     "values": {
-      "bandpower_alpha": 0.4237231463394774,
-      "bandpower_beta": 0.3050532173827725,
-      "bandpower_gamma": 0.026134767036753458,
-      "spike_rate": 8.093678858693941,
-      "rms_amplitude": 76.48270116007832,
-      "burst_index": 0.18150394584445612
+      "bandpower_alpha": 0.005942497720617168,
+      "bandpower_beta": 0.3727247520340458,
+      "bandpower_gamma": 0.15466165893955156,
+      "spike_rate": 32.139991456626746,
+      "rms_amplitude": 81.56707248327079,
+      "burst_index": 0.08699049338349987
     },
-    "createdAt": "2026-01-20T01:18:45.383Z"
+    "createdAt": "2026-01-20T16:47:58.818Z"
   },
   {
-    "id": "dc9eab00-d260-4848-82be-eedc6d4c0d6e",
-    "sessionId": "77efba0e-c366-43d2-9774-5e038146fdbc",
+    "id": "829a8340-280c-4938-9034-1ee4c62975cb",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
     "featureType": "temporal_dynamics",
-    "windowStart": 1395661.9367889392,
-    "windowEnd": 323025.2177686334,
+    "windowStart": 250653.91195862537,
+    "windowEnd": 860536.678493326,
     "values": {
-      "bandpower_alpha": 0.2200192285696806,
-      "bandpower_beta": 0.36874256673256467,
-      "bandpower_gamma": 0.23433052404065183,
-      "spike_rate": 16.33864938484716,
-      "rms_amplitude": 11.138099842731751,
-      "burst_index": 0.7349261894954179
+      "bandpower_alpha": 0.46381173279012466,
+      "bandpower_beta": 0.2558968094483915,
+      "bandpower_gamma": 0.296587826077386,
+      "spike_rate": 17.37990393709343,
+      "rms_amplitude": 88.22458107900317,
+      "burst_index": 0.06371018188885635
     },
-    "createdAt": "2026-01-20T01:18:45.383Z"
+    "createdAt": "2026-01-20T16:47:58.818Z"
   },
   {
-    "id": "7908d489-5af0-49a9-8c92-a572076acf41",
-    "sessionId": "0264fc9a-6758-4bcd-8859-ab23ddf3f307",
+    "id": "c8145403-48ff-4753-9fc2-40a5d6a8e646",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
     "featureType": "bandpower",
-    "windowStart": 1871009.0797006874,
-    "windowEnd": 1394376.6842214412,
+    "windowStart": 633692.1152512209,
+    "windowEnd": 730541.3842685525,
     "values": {
-      "bandpower_alpha": 0.4133843439964219,
-      "bandpower_beta": 0.24084187122136225,
-      "bandpower_gamma": 0.2877186918640308,
-      "spike_rate": 27.42749386920004,
-      "rms_amplitude": 40.20124818247148,
-      "burst_index": 0.7977609715648699
+      "bandpower_alpha": 0.00035083660758894464,
+      "bandpower_beta": 0.1594862635526817,
+      "bandpower_gamma": 0.0038681529624044362,
+      "spike_rate": 8.585013790755003,
+      "rms_amplitude": 26.580016906314686,
+      "burst_index": 0.0023271021453378895
     },
-    "createdAt": "2026-01-20T01:18:49.372Z"
+    "createdAt": "2026-01-20T16:48:02.293Z"
   },
   {
-    "id": "972cd084-7dad-426f-a5ee-f97b2a999421",
-    "sessionId": "0264fc9a-6758-4bcd-8859-ab23ddf3f307",
+    "id": "1bbeccde-ba17-43e2-921a-b382c21bb4f3",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
     "featureType": "spike_statistics",
-    "windowStart": 478104.06905385887,
-    "windowEnd": 1349879.5407918047,
+    "windowStart": 378430.5563482779,
+    "windowEnd": 2622636.4195828675,
     "values": {
-      "bandpower_alpha": 0.060812877690943345,
-      "bandpower_beta": 0.10030570648396804,
-      "bandpower_gamma": 0.2348854276581165,
-      "spike_rate": 6.156996448025021,
-      "rms_amplitude": 41.93136378631872,
-      "burst_index": 0.27802840923845035
+      "bandpower_alpha": 0.20152207817358248,
+      "bandpower_beta": 0.1636165709628207,
+      "bandpower_gamma": 0.2713575806588239,
+      "spike_rate": 21.746396283486934,
+      "rms_amplitude": 3.3407271062496413,
+      "burst_index": 0.2522220818037866
     },
-    "createdAt": "2026-01-20T01:18:49.372Z"
+    "createdAt": "2026-01-20T16:48:02.293Z"
   },
   {
-    "id": "eb110c2f-4ccc-453b-bebe-1b0d625e0043",
-    "sessionId": "0264fc9a-6758-4bcd-8859-ab23ddf3f307",
+    "id": "da59dbfd-cbb7-4c91-889b-b516c518206a",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
     "featureType": "oscillations",
-    "windowStart": 5168.341299823674,
-    "windowEnd": 1693456.0801043392,
+    "windowStart": 2848141.307203748,
+    "windowEnd": 2234313.9163797433,
     "values": {
-      "bandpower_alpha": 0.258486976186595,
-      "bandpower_beta": 0.10198582393049271,
-      "bandpower_gamma": 0.018701569769588054,
-      "spike_rate": 3.9234122878415434,
-      "rms_amplitude": 45.75080196303107,
-      "burst_index": 0.28552419928503525
+      "bandpower_alpha": 0.4331745577118672,
+      "bandpower_beta": 0.3091567032003196,
+      "bandpower_gamma": 0.024793054522761593,
+      "spike_rate": 26.73741784103325,
+      "rms_amplitude": 35.833308401673406,
+      "burst_index": 0.11517524403423868
     },
-    "createdAt": "2026-01-20T01:18:49.372Z"
+    "createdAt": "2026-01-20T16:48:02.293Z"
   },
   {
-    "id": "3db6d4be-f196-46ac-a0b3-a59ce2f5647b",
-    "sessionId": "0264fc9a-6758-4bcd-8859-ab23ddf3f307",
+    "id": "7b29ebd1-bf1e-436d-9b96-9a07887874ba",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
     "featureType": "connectivity",
-    "windowStart": 272919.5400897672,
-    "windowEnd": 2768221.7077736952,
+    "windowStart": 2705515.496775259,
+    "windowEnd": 2606855.536520567,
     "values": {
-      "bandpower_alpha": 0.07231651158669938,
-      "bandpower_beta": 0.3263185226546228,
-      "bandpower_gamma": 0.12710726023606386,
-      "spike_rate": 25.856233965630015,
-      "rms_amplitude": 23.969898619149,
-      "burst_index": 0.3259639566532025
+      "bandpower_alpha": 0.21902163565223487,
+      "bandpower_beta": 0.23992558339621148,
+      "bandpower_gamma": 0.1510486869088159,
+      "spike_rate": 39.861546957320726,
+      "rms_amplitude": 3.527763763412195,
+      "burst_index": 0.19884223740356416
     },
-    "createdAt": "2026-01-20T01:18:49.372Z"
+    "createdAt": "2026-01-20T16:48:02.293Z"
   },
   {
-    "id": "bc087f8a-1f56-4c71-806a-d4d91a89ef4a",
-    "sessionId": "0264fc9a-6758-4bcd-8859-ab23ddf3f307",
+    "id": "c526d540-bd04-4d0b-8538-d52f7ff9821c",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
     "featureType": "temporal_dynamics",
-    "windowStart": 401786.5796430841,
-    "windowEnd": 42380.54717825064,
+    "windowStart": 2463179.8422135618,
+    "windowEnd": 933552.9457669349,
     "values": {
-      "bandpower_alpha": 0.26116731196193554,
-      "bandpower_beta": 0.18491878681152896,
-      "bandpower_gamma": 0.008014081402734895,
-      "spike_rate": 5.548962506026589,
-      "rms_amplitude": 69.77878399732533,
-      "burst_index": 0.33382795009585653
+      "bandpower_alpha": 0.4083920624139268,
+      "bandpower_beta": 0.09862742657540542,
+      "bandpower_gamma": 0.1610993887525703,
+      "spike_rate": 29.87924326704586,
+      "rms_amplitude": 46.72948597641005,
+      "burst_index": 0.7254449872299299
     },
-    "createdAt": "2026-01-20T01:18:49.372Z"
+    "createdAt": "2026-01-20T16:48:02.293Z"
   },
   {
-    "id": "a993d1d6-04b9-4b60-bae3-ceb72236de48",
-    "sessionId": "48e5e97e-c903-4976-a3c5-5966cd6d4517",
+    "id": "e9f6b826-9f8b-4bee-8b09-db81621de929",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
     "featureType": "bandpower",
-    "windowStart": 1182003.6647528359,
-    "windowEnd": 1188937.4909682793,
+    "windowStart": 1549871.0050772072,
+    "windowEnd": 1057616.1066586052,
     "values": {
-      "bandpower_alpha": 0.024768251724338275,
-      "bandpower_beta": 0.39008170211289817,
-      "bandpower_gamma": 0.06996709612233576,
-      "spike_rate": 48.888303161671764,
-      "rms_amplitude": 19.81360853005809,
-      "burst_index": 0.4317581425860191
+      "bandpower_alpha": 0.0723105263006989,
+      "bandpower_beta": 0.040918838756985924,
+      "bandpower_gamma": 0.1002092391318873,
+      "spike_rate": 27.902500364810436,
+      "rms_amplitude": 64.50768106096385,
+      "burst_index": 0.018181818046997124
     },
-    "createdAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z"
   },
   {
-    "id": "b03a76c5-88de-48c4-a8fe-b16b79eb136b",
-    "sessionId": "48e5e97e-c903-4976-a3c5-5966cd6d4517",
+    "id": "c8b2a5e5-4b09-4b07-b087-c153eb6e06bb",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
     "featureType": "spike_statistics",
-    "windowStart": 495787.93775880703,
-    "windowEnd": 104654.50686159507,
+    "windowStart": 642319.9133703645,
+    "windowEnd": 405766.55624254775,
     "values": {
-      "bandpower_alpha": 0.15578903610707695,
-      "bandpower_beta": 0.12464522638402996,
-      "bandpower_gamma": 0.25126314774628017,
-      "spike_rate": 48.23058506845972,
-      "rms_amplitude": 21.733595022450313,
-      "burst_index": 0.5728404485109918
+      "bandpower_alpha": 0.20840062016162975,
+      "bandpower_beta": 0.1944282383736999,
+      "bandpower_gamma": 0.22408092011500255,
+      "spike_rate": 42.45988787708992,
+      "rms_amplitude": 48.56778504462105,
+      "burst_index": 0.6447306079329924
     },
-    "createdAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z"
   },
   {
-    "id": "f3ec13d9-278f-4c1b-a21c-0090d5f5ec08",
-    "sessionId": "48e5e97e-c903-4976-a3c5-5966cd6d4517",
+    "id": "c8aaee30-606b-446e-a683-e102ec52dde2",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
     "featureType": "oscillations",
-    "windowStart": 259038.46180723788,
-    "windowEnd": 383569.4167804919,
+    "windowStart": 1381666.371322897,
+    "windowEnd": 1011068.3944635938,
     "values": {
-      "bandpower_alpha": 0.22545678795291113,
-      "bandpower_beta": 0.16504521531947783,
-      "bandpower_gamma": 0.14053017233673107,
-      "spike_rate": 22.501727507842574,
-      "rms_amplitude": 28.705076018028496,
-      "burst_index": 0.0010465838437028196
+      "bandpower_alpha": 0.46318201533198267,
+      "bandpower_beta": 0.16704825025211162,
+      "bandpower_gamma": 0.19364873658946838,
+      "spike_rate": 40.19051795048474,
+      "rms_amplitude": 29.54409287113029,
+      "burst_index": 0.3432756348482183
     },
-    "createdAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z"
   },
   {
-    "id": "4a7bf61d-cfbf-4c50-b38b-dc2326cb0cfc",
-    "sessionId": "48e5e97e-c903-4976-a3c5-5966cd6d4517",
+    "id": "0f256bee-dc3f-4b17-b817-d00b91260fa4",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
     "featureType": "connectivity",
-    "windowStart": 99223.37581608455,
-    "windowEnd": 881461.5303518423,
+    "windowStart": 759998.1027381485,
+    "windowEnd": 1349172.4789280328,
     "values": {
-      "bandpower_alpha": 0.14208693768172298,
-      "bandpower_beta": 0.29664572242164305,
-      "bandpower_gamma": 0.26804820548507624,
-      "spike_rate": 37.09447915991717,
-      "rms_amplitude": 11.083927986264452,
-      "burst_index": 0.22954558461133434
+      "bandpower_alpha": 0.3570632307067293,
+      "bandpower_beta": 0.07495198395562142,
+      "bandpower_gamma": 0.07689402746618175,
+      "spike_rate": 3.3996671217971564,
+      "rms_amplitude": 56.15980472376274,
+      "burst_index": 0.35827492923899573
     },
-    "createdAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z"
   },
   {
-    "id": "5b5482e1-b07e-4785-b7d4-d6a17adf7285",
-    "sessionId": "48e5e97e-c903-4976-a3c5-5966cd6d4517",
+    "id": "59b8dbfc-159f-4d74-b708-71be0c1b3494",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
     "featureType": "temporal_dynamics",
-    "windowStart": 1318940.7949892962,
-    "windowEnd": 1254574.5836636818,
+    "windowStart": 141346.3751549056,
+    "windowEnd": 144451.30453197763,
     "values": {
-      "bandpower_alpha": 0.09826543989821401,
-      "bandpower_beta": 0.04151599598803131,
-      "bandpower_gamma": 0.14384949162394103,
-      "spike_rate": 37.35732359539846,
-      "rms_amplitude": 37.710733947257836,
-      "burst_index": 0.619643888447463
+      "bandpower_alpha": 0.05086634831588488,
+      "bandpower_beta": 0.15254128868876002,
+      "bandpower_gamma": 0.05842285004142142,
+      "spike_rate": 31.699996865705092,
+      "rms_amplitude": 5.775160965275217,
+      "burst_index": 0.1614596006221156
     },
-    "createdAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z"
   }
 ]

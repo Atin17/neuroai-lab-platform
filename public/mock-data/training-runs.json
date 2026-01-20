@@ -1,44 +1,47 @@
 [
   {
-    "id": "a3c4114c-01b0-48c5-a2ea-f1fa26b7b7da",
+    "id": "d2aa854a-226e-4fad-ac63-47bdad037024",
     "name": "Training_Run_1",
+    "modelType": "svm",
+    "status": "completed",
+    "accuracy": 0.7371333189180127,
+    "loss": 0.15824449724747447,
+    "epochs": 36,
+    "sessionIds": [
+      "7d811356-911f-4904-b9dc-fe4583156396",
+      "a49945bb-b1ca-4006-bcdb-8948b344bc64"
+    ],
+    "createdAt": "2026-01-20T16:48:05.921Z",
+    "updatedAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "f90915ae-f38d-4a69-88a8-53b387f3401d",
+    "name": "Training_Run_2",
     "modelType": "ensemble",
     "status": "completed",
-    "accuracy": 0.9649415660139713,
-    "loss": 0.14341036627978399,
-    "epochs": 10,
+    "accuracy": 0.8652564110865114,
+    "loss": 0.09065049589062191,
+    "epochs": 46,
     "sessionIds": [
-      "6a934a97-f3dd-421e-9074-d77823afb1d3"
+      "7d811356-911f-4904-b9dc-fe4583156396"
     ],
-    "createdAt": "2026-01-20T01:18:53.308Z",
-    "updatedAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z",
+    "updatedAt": "2026-01-20T16:48:05.921Z"
   },
   {
-    "id": "d9998ed8-d8db-4ace-a4d5-c32a756965b5",
-    "name": "Training_Run_2",
-    "modelType": "svm",
-    "status": "running",
-    "accuracy": 0.9293329406543447,
-    "loss": 0.1719695356618034,
-    "epochs": 44,
-    "sessionIds": [
-      "6a934a97-f3dd-421e-9074-d77823afb1d3"
-    ],
-    "createdAt": "2026-01-20T01:18:53.308Z",
-    "updatedAt": "2026-01-20T01:18:53.308Z"
-  },
-  {
-    "id": "2fecad53-cdf3-4607-bca3-94cc261fd5bc",
+    "id": "6e62d693-7ab9-4e7f-be56-f3cf1f6114f6",
     "name": "Training_Run_3",
-    "modelType": "ensemble",
-    "status": "running",
-    "accuracy": 0.725627026733605,
-    "loss": 0.07686217444832122,
-    "epochs": 51,
+    "modelType": "transformer",
+    "status": "failed",
+    "accuracy": 0.8938728838372587,
+    "loss": 0.2171927204890829,
+    "epochs": 36,
     "sessionIds": [
-      "6a934a97-f3dd-421e-9074-d77823afb1d3"
+      "7d811356-911f-4904-b9dc-fe4583156396",
+      "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+      "aad5531e-3273-4292-be89-9886236064da"
     ],
-    "createdAt": "2026-01-20T01:18:53.308Z",
-    "updatedAt": "2026-01-20T01:18:53.308Z"
+    "createdAt": "2026-01-20T16:48:05.921Z",
+    "updatedAt": "2026-01-20T16:48:05.921Z"
   }
 ]
