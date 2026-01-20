@@ -192,7 +192,7 @@ Provides a template for building centralized data management systems for neural 
 ### For Neurotechnology Companies
 Proves ability to translate complex scientific requirements into scalable, maintainable software infrastructure with professional UI/UX.
 
-## 🔧 Development Workflow
+## Development Workflow
 
 ### Adding New Features
 
@@ -260,10 +260,10 @@ The platform follows a **scientific/technical** approach inspired by internal ne
 - ✅ Lab registry system
 - ✅ Backend API implementation with tRPC
 - ✅ Python data processing scripts (ingest.py, dataset.py)
+- ✅ Docker containerization
 
 ### Next Steps
 - [ ] ML training pipeline (train.py, eval.py)
-- [ ] Docker containerization
 - [ ] CI/CD with GitHub Actions
 - [ ] Demo video and screenshots
 
@@ -271,7 +271,7 @@ The platform follows a **scientific/technical** approach inspired by internal ne
 
 MIT License - see LICENSE file for details
 
-## 🤝 Contributing
+## Contributing
 
 For production use, consider:
 - Adding authentication middleware for multi-user support
@@ -280,10 +280,10 @@ For production use, consider:
 - Adding more sophisticated ML models
 - Implementing real-time data streaming
 
-## 📞 Contact
+## Contact
 
 Built by Atin Srivastava.
 
 ---
 
-**Note**: This is a demonstration platform showcasing technical capabilities. For production deployment with real neural data, additional security, validation, and compliance measures would be required.
+**Note**: For production deployment with real neural data, additional security, validation, and compliance measures would be required.
