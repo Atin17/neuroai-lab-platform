@@ -47,7 +47,7 @@ export default function LabRegistry() {
 
   // Get all unique tags
   const allTags = Array.from(
-    new Set(registryEntries.flatMap((entry) => entry.tags))
+    new Set(registryEntries.flatMap((entry) => entry.tags || []))
   );
 
   // Filter entries
@@ -288,7 +288,7 @@ export default function LabRegistry() {
                   </div>
 
                   <div className="flex flex-wrap gap-2">
-                    {entry.tags.map((tag) => (
+                    {(entry.tags || []).map((tag) => (
                       <Badge key={tag} variant="secondary" className="bg-blue-900 text-blue-200">
                         <Tag className="h-3 w-3 mr-1" />
                         {tag}
@@ -303,7 +303,7 @@ export default function LabRegistry() {
                         Attachments
                       </p>
                       <div className="space-y-1">
-                        {entry.attachments.map((attachment, idx) => (
+                        {(entry.attachments || []).map((attachment, idx) => (
                           <p key={idx} className="text-sm text-blue-400 hover:underline cursor-pointer">
                             {attachment}
                           </p>
