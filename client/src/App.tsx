@@ -11,6 +11,8 @@ import Visualization from "./pages/Visualization";
 import ModelTraining from "./pages/ModelTraining";
 import ExperimentTracking from "./pages/ExperimentTracking";
 import LabRegistry from "./pages/LabRegistry";
+import Analytics from "./pages/Analytics";
+import SignalQuality from "./pages/SignalQuality";
 
 function Router() {
   return (
@@ -22,6 +24,8 @@ function Router() {
       <Route path={"/model-training"} component={ModelTraining} />
       <Route path={"/experiments"} component={ExperimentTracking} />
       <Route path={"/lab-registry"} component={LabRegistry} />
+      <Route path={"/analytics"} component={Analytics} />
+      <Route path={"/signal-quality"} component={SignalQuality} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>

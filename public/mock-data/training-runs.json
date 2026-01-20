@@ -1,0 +1,44 @@
+[
+  {
+    "id": "a3c4114c-01b0-48c5-a2ea-f1fa26b7b7da",
+    "name": "Training_Run_1",
+    "modelType": "ensemble",
+    "status": "completed",
+    "accuracy": 0.9649415660139713,
+    "loss": 0.14341036627978399,
+    "epochs": 10,
+    "sessionIds": [
+      "6a934a97-f3dd-421e-9074-d77823afb1d3"
+    ],
+    "createdAt": "2026-01-20T01:18:53.308Z",
+    "updatedAt": "2026-01-20T01:18:53.308Z"
+  },
+  {
+    "id": "d9998ed8-d8db-4ace-a4d5-c32a756965b5",
+    "name": "Training_Run_2",
+    "modelType": "svm",
+    "status": "running",
+    "accuracy": 0.9293329406543447,
+    "loss": 0.1719695356618034,
+    "epochs": 44,
+    "sessionIds": [
+      "6a934a97-f3dd-421e-9074-d77823afb1d3"
+    ],
+    "createdAt": "2026-01-20T01:18:53.308Z",
+    "updatedAt": "2026-01-20T01:18:53.308Z"
+  },
+  {
+    "id": "2fecad53-cdf3-4607-bca3-94cc261fd5bc",
+    "name": "Training_Run_3",
+    "modelType": "ensemble",
+    "status": "running",
+    "accuracy": 0.725627026733605,
+    "loss": 0.07686217444832122,
+    "epochs": 51,
+    "sessionIds": [
+      "6a934a97-f3dd-421e-9074-d77823afb1d3"
+    ],
+    "createdAt": "2026-01-20T01:18:53.308Z",
+    "updatedAt": "2026-01-20T01:18:53.308Z"
+  }
+]
