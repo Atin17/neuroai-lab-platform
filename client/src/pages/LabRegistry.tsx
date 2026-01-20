@@ -53,12 +53,16 @@ export default function LabRegistry() {
   // Filter entries
   const filteredEntries = registryEntries.filter((entry) => {
     const search = (searchTerm || "").toLowerCase();
+    const sessionId = (entry.sessionId || "").toLowerCase();
+    const notes = (entry.notes || "").toLowerCase();
+    const device = (entry.device || "").toLowerCase();
+    
     const matchesSearch =
-      entry.sessionId.toLowerCase().includes(search) ||
-      entry.notes.toLowerCase().includes(search) ||
-      entry.device.toLowerCase().includes(search);
+      sessionId.includes(search) ||
+      notes.includes(search) ||
+      device.includes(search);
 
-    const matchesTag = selectedTag === "all" || entry.tags.includes(selectedTag);
+    const matchesTag = selectedTag === "all" || (entry.tags && entry.tags.includes(selectedTag));
 
     return matchesSearch && matchesTag;
   });
