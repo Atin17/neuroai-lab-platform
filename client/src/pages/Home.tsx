@@ -12,7 +12,9 @@ import {
   Activity,
   Database,
   TrendingUp,
-  ArrowRight
+  ArrowRight,
+  BarChart3,
+  Zap
 } from "lucide-react";
 
 export default function Home() {
@@ -240,9 +242,75 @@ export default function Home() {
               </CardContent>
             </Card>
           </Link>
+
+          <Link href="/analytics">
+            <Card className="bg-card border-border hover:border-primary/50 transition-colors cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <BarChart3 className="h-5 w-5 text-primary" />
+                  Analytics Dashboard
+                </CardTitle>
+                <CardDescription>
+                  Comprehensive neural data analytics and performance metrics
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm text-muted-foreground">
+                  <div className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-primary" />
+                    <span>Session statistics & summaries</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-primary" />
+                    <span>Task distribution analysis</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-primary" />
+                    <span>Training performance metrics</span>
+                  </div>
+                </div>
+                <Button variant="ghost" className="mt-4 p-0 h-auto text-primary hover:text-primary/80">
+                  Open module <ArrowRight className="h-4 w-4 ml-1" />
+                </Button>
+              </CardContent>
+            </Card>
+          </Link>
+
+          <Link href="/signal-quality">
+            <Card className="bg-card border-border hover:border-primary/50 transition-colors cursor-pointer h-full">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Zap className="h-5 w-5 text-primary" />
+                  Signal Quality
+                </CardTitle>
+                <CardDescription>
+                  Real-time neural recording quality monitoring and drift detection
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm text-muted-foreground">
+                  <div className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-primary" />
+                    <span>SNR distribution analysis</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-primary" />
+                    <span>Noise floor trending</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="h-1.5 w-1.5 rounded-full bg-primary" />
+                    <span>Electrode drift monitoring</span>
+                  </div>
+                </div>
+                <Button variant="ghost" className="mt-4 p-0 h-auto text-primary hover:text-primary/80">
+                  Open module <ArrowRight className="h-4 w-4 ml-1" />
+                </Button>
+              </CardContent>
+            </Card>
+          </Link>
         </div>
 
-        <Card className="bg-gradient-to-br from-card to-card/50 border-border">
+        <Card className="bg-gradient-to-br from-card to-card/50 border-border mt-8">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Database className="h-5 w-5 text-primary" />
