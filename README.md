@@ -51,7 +51,7 @@ This platform demonstrates production-ready infrastructure for neuroscience rese
 ### Prerequisites
 - Node.js 22+
 - pnpm 10+
-- MySQL/TiDB database (provided by Manus platform)
+- MySQL/TiDB database
 
 ### Installation
 
