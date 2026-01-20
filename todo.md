@@ -43,6 +43,13 @@
 - [x] Write PROJECT_BRIEF.md mapping features → Neuralink-style needs
 - [x] Update README with "1-minute run" + screenshots
 
+## Docker & Deployment
+- [x] Create Dockerfile for Node.js application
+- [x] Create docker-compose.yml with app, MySQL, and MinIO
+- [x] Create .dockerignore and build scripts
+- [x] Update README with Docker Compose instructions
+- [x] Test Docker Compose setup
+
 
 ## Mock Database & Analytics (Complete)
 - [x] Create seed script with realistic neural data

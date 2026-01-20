@@ -48,12 +48,40 @@ This platform demonstrates production-ready infrastructure for neuroscience rese
 
 ## Quick Start
 
-### Prerequisites
+### Option 1: Docker Compose (Recommended for Recruiters)
+
+Boot the entire platform with one command—no dependencies to install.
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd neuroai-lab-platform-demo
+
+# Start all services (app, database, S3 emulator)
+docker-compose up
+```
+
+The platform will be available at:
+- **Application**: http://localhost:3000
+- **MinIO Console** (S3 emulator): http://localhost:9001 (minioadmin/minioadmin)
+- **MySQL Database**: localhost:3306 (neuroai_user/neuroai_password)
+
+**Helper Script** (optional):
+```bash
+./docker-compose.sh start      # Start services
+./docker-compose.sh stop       # Stop services
+./docker-compose.sh logs app   # View app logs
+./docker-compose.sh reset-db   # Reset database
+```
+
+### Option 2: Local Development
+
+#### Prerequisites
 - Node.js 22+
 - pnpm 10+
 - MySQL/TiDB database
 
-### Installation
+#### Installation
 
 ```bash
 # Clone the repository
@@ -103,6 +131,29 @@ pnpm start
 - **Typography**: IBM Plex Sans (UI) + IBM Plex Mono (code/data)
 - **Theme**: Dark mode optimized for extended viewing
 - **Layout**: Dashboard with persistent sidebar navigation
+
+## Docker Deployment
+
+### Services
+
+The Docker Compose setup includes three services:
+
+1. **App** (Node.js)
+   - Runs the complete NeuroAI Lab Platform
+   - Exposed on port 3000
+   - Automatically builds from Dockerfile
+
+2. **MySQL Database**
+   - Stores all application data
+   - Exposed on port 3306
+   - Credentials: neuroai_user / neuroai_password
+   - Database: neuroai_lab
+
+3. **MinIO S3 Emulator**
+   - Provides S3-compatible object storage
+   - Web console on port 9001
+   - Credentials: minioadmin / minioadmin
+   - Useful for local development and testing
 
 ## Project Structure
 
