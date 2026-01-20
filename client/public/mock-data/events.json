@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "81ed9393-e06e-4a3f-891a-98481f6fab0f",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "movement",
+    "timestamp": 354347.7443425737,
+    "duration": 325.03792783619,
+    "metadata": {
+      "channel": 255,
+      "amplitude": 76.90831759647052
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "d6364fb6-3f7b-477e-b149-b2a3966b82e2",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "response",
+    "timestamp": 761299.4280731808,
+    "duration": 541.1936969014487,
+    "metadata": {
+      "channel": 98,
+      "amplitude": 41.101621557041625
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "ccff3be4-2803-4a6a-81c5-3b80388e452d",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "artifact",
+    "timestamp": 942519.6616748574,
+    "duration": 438.85963805602836,
+    "metadata": {
+      "channel": 191,
+      "amplitude": 67.2120898126779
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "cfd55a57-831a-462c-b7b0-2692e59382df",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "response",
+    "timestamp": 613693.6946173847,
+    "duration": 599.9108856308308,
+    "metadata": {
+      "channel": 197,
+      "amplitude": 31.96738266018613
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "950aeef6-38af-4369-8dfe-24309a4604f1",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "stimulus_onset",
+    "timestamp": 1669378.1662989627,
+    "duration": 426.424322937816,
+    "metadata": {
+      "channel": 194,
+      "amplitude": 43.00919823342386
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "dd47df79-1a6f-4cd6-b8ec-faf0e791bafb",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "movement",
+    "timestamp": 50050.5524104782,
+    "duration": 272.19166523982346,
+    "metadata": {
+      "channel": 188,
+      "amplitude": 30.39433551699664
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "dc3f5617-4f61-43c6-a932-570ecb2ce19f",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "response",
+    "timestamp": 866323.3147118808,
+    "duration": 468.0565086182351,
+    "metadata": {
+      "channel": 124,
+      "amplitude": 84.93138668589926
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "1cc8b5c7-fdea-4b1d-b4bb-824a0630789e",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "artifact",
+    "timestamp": 376706.0461608204,
+    "duration": 244.03003132315428,
+    "metadata": {
+      "channel": 61,
+      "amplitude": 60.75477521558636
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "bfed6591-c8b5-4509-a6ca-e87dff14b108",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "stimulus_onset",
+    "timestamp": 1348956.7850548509,
+    "duration": 488.8684014283281,
+    "metadata": {
+      "channel": 69,
+      "amplitude": 74.09379779418994
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "a82a0fe8-16ef-4037-8f6c-e0105d7c1589",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "stimulus_onset",
+    "timestamp": 723469.4667789553,
+    "duration": 437.1151613164157,
+    "metadata": {
+      "channel": 249,
+      "amplitude": 14.111905598585018
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "f223fc55-e90f-41c3-a8b7-486665c8fbd5",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "movement",
+    "timestamp": 1238330.6421035167,
+    "duration": 302.6750701639861,
+    "metadata": {
+      "channel": 202,
+      "amplitude": 77.44948170892816
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "e0e09a67-de68-47f2-a218-93c4557e9c66",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "artifact",
+    "timestamp": 839851.6168796241,
+    "duration": 450.1675935236599,
+    "metadata": {
+      "channel": 135,
+      "amplitude": 0.399270186605194
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "f5b09350-7167-4493-8f9b-3a0232ab6298",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "blink",
+    "timestamp": 537902.0464832617,
+    "duration": 175.19320092584425,
+    "metadata": {
+      "channel": 108,
+      "amplitude": 84.31586762407368
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "7ba1ddb7-e7d9-4c80-b988-e1112020862c",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "artifact",
+    "timestamp": 503080.95482067665,
+    "duration": 444.5690526247742,
+    "metadata": {
+      "channel": 28,
+      "amplitude": 15.84695002691181
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "cfa09d41-658b-4ce8-8417-5e46a6f1ca83",
+    "sessionId": "7d811356-911f-4904-b9dc-fe4583156396",
+    "eventType": "stimulus_onset",
+    "timestamp": 416153.4484573162,
+    "duration": 250.87338204260647,
+    "metadata": {
+      "channel": 47,
+      "amplitude": 39.935034575153594
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "cdc62de8-264b-46fe-ad74-f0862fd69f01",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "response",
+    "timestamp": 1821040.5940282047,
+    "duration": 274.2316258996243,
+    "metadata": {
+      "channel": 185,
+      "amplitude": 22.517107130646984
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "faa660da-c069-484a-9921-27776aff49d7",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "movement",
+    "timestamp": 1831305.6463551314,
+    "duration": 110.71622053123045,
+    "metadata": {
+      "channel": 10,
+      "amplitude": 7.843722178249601
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "e93092a4-a666-4984-af62-362065cb74fe",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "response",
+    "timestamp": 173599.78567774646,
+    "duration": 501.5376933223359,
+    "metadata": {
+      "channel": 131,
+      "amplitude": 26.947033871747106
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "c77f930f-ad46-4089-aa98-6860346af20f",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "blink",
+    "timestamp": 1265588.2494230764,
+    "duration": 292.16330190934275,
+    "metadata": {
+      "channel": 200,
+      "amplitude": 23.656053377505227
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "ef4f0311-003d-4150-8fca-e80546d84594",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "stimulus_onset",
+    "timestamp": 863085.371985744,
+    "duration": 313.0030412981761,
+    "metadata": {
+      "channel": 12,
+      "amplitude": 76.82598409886133
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "d62f4383-37fd-4d83-bb39-3b255701e81f",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "movement",
+    "timestamp": 1795203.1299187406,
+    "duration": 231.6081954349978,
+    "metadata": {
+      "channel": 1,
+      "amplitude": 97.84124754510057
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "deafb15e-f81b-4e8e-89d7-69a5e93d801b",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "artifact",
+    "timestamp": 1659746.0515753843,
+    "duration": 280.31102867173365,
+    "metadata": {
+      "channel": 66,
+      "amplitude": 62.98116143312544
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "3036f130-8c7f-4d6a-b30a-0729f3bf68b3",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "movement",
+    "timestamp": 25518.465202878673,
+    "duration": 262.51569363825945,
+    "metadata": {
+      "channel": 144,
+      "amplitude": 0.848552663230806
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "6b8b1b3c-38d8-4877-a3cb-fa4997da54ae",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "blink",
+    "timestamp": 154370.61851938494,
+    "duration": 205.58311816477183,
+    "metadata": {
+      "channel": 178,
+      "amplitude": 21.74086212515103
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "ae8f12e1-ea67-4c49-8bfe-a4f564f89910",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "artifact",
+    "timestamp": 28990.06493779993,
+    "duration": 248.87807052485456,
+    "metadata": {
+      "channel": 46,
+      "amplitude": 31.327512214946076
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "95be9d3b-3cb9-4440-bd51-c01f28bd9729",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "response",
+    "timestamp": 1246503.7180626092,
+    "duration": 489.2755586244462,
+    "metadata": {
+      "channel": 198,
+      "amplitude": 49.809056463278026
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "24166c38-d6b8-488d-a797-db3cd4b0dd2a",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "artifact",
+    "timestamp": 1672723.7092429786,
+    "duration": 115.64834334356135,
+    "metadata": {
+      "channel": 80,
+      "amplitude": 21.743541199145856
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "6eeab497-cdf6-457e-a0a1-fef63f3a4e48",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "response",
+    "timestamp": 761969.3775275116,
+    "duration": 235.45342641986502,
+    "metadata": {
+      "channel": 16,
+      "amplitude": 83.14712650667335
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "98a1ab12-110e-4722-adaf-7c644eb8b457",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "stimulus_onset",
+    "timestamp": 362959.889831271,
+    "duration": 545.3927775530431,
+    "metadata": {
+      "channel": 199,
+      "amplitude": 32.041531148984426
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "51f9de12-a72c-4eaf-897d-bf56d7ee06a9",
+    "sessionId": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "eventType": "response",
+    "timestamp": 563023.4231611475,
+    "duration": 533.4724408530976,
+    "metadata": {
+      "channel": 37,
+      "amplitude": 48.87160685740049
+    },
+    "createdAt": "2026-01-20T16:47:29.747Z"
+  },
+  {
+    "id": "3d2f30e9-bd84-4bdc-8150-b1513e0f8a27",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "movement",
+    "timestamp": 1817409.650105524,
+    "duration": 256.4084381046271,
+    "metadata": {
+      "channel": 132,
+      "amplitude": 55.66571179125395
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "d4f9e6f1-5a5a-4726-963e-e339d5830ee0",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "blink",
+    "timestamp": 1702015.6143457713,
+    "duration": 543.5984810452719,
+    "metadata": {
+      "channel": 109,
+      "amplitude": 80.96821612900852
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "e234f1ab-baf0-4a24-baca-d335a89d4547",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "response",
+    "timestamp": 2281997.4851054125,
+    "duration": 522.904747098705,
+    "metadata": {
+      "channel": 176,
+      "amplitude": 98.80307410954849
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "68f0b5c5-7518-4e83-8138-b5964e70919b",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "blink",
+    "timestamp": 650656.4250371744,
+    "duration": 151.56062432754027,
+    "metadata": {
+      "channel": 10,
+      "amplitude": 25.397125682006696
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "cd2faa63-6524-4f60-bbaf-227011b14051",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "movement",
+    "timestamp": 2381834.99591851,
+    "duration": 420.007251304567,
+    "metadata": {
+      "channel": 14,
+      "amplitude": 79.77910497033622
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "9298700a-1334-4621-a57d-6caf78242889",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "artifact",
+    "timestamp": 1031291.6771486489,
+    "duration": 433.7124153630383,
+    "metadata": {
+      "channel": 134,
+      "amplitude": 72.74397121757418
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "46837a9f-4662-40fc-b451-f104688d6810",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "blink",
+    "timestamp": 1764309.168004183,
+    "duration": 117.83343487376854,
+    "metadata": {
+      "channel": 77,
+      "amplitude": 43.40545140439895
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "5b6394ba-c0f4-48e4-904c-d91901a22aea",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "artifact",
+    "timestamp": 418630.61648697767,
+    "duration": 301.79207298072555,
+    "metadata": {
+      "channel": 84,
+      "amplitude": 73.04354352396984
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "4ecc6d0c-fb3c-43b6-b4fa-14d36d57d916",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "response",
+    "timestamp": 2013800.8749451325,
+    "duration": 145.13499838962886,
+    "metadata": {
+      "channel": 159,
+      "amplitude": 2.8881258953260325
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "6bea7d03-91f0-4cdf-8c1d-4086d87f7bc1",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "blink",
+    "timestamp": 1259201.7510376193,
+    "duration": 465.0796325343366,
+    "metadata": {
+      "channel": 117,
+      "amplitude": 16.786764826873778
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "93461729-98e9-4aaf-a402-625630af883a",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "artifact",
+    "timestamp": 2109876.7499842737,
+    "duration": 308.0996704921072,
+    "metadata": {
+      "channel": 73,
+      "amplitude": 36.18336316363755
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "cb3f8c7d-218b-4a30-9b53-660ec0b9cc9b",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "response",
+    "timestamp": 273323.25942039595,
+    "duration": 595.2649178253735,
+    "metadata": {
+      "channel": 56,
+      "amplitude": 30.685836595590033
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "f524045d-aa49-4bf2-8244-bb3ec5c7fce5",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "artifact",
+    "timestamp": 1654336.1024045895,
+    "duration": 508.8823763683572,
+    "metadata": {
+      "channel": 176,
+      "amplitude": 70.78991924736131
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "c4a29d67-9e1f-45cf-8705-3d9cb1b74a5f",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "response",
+    "timestamp": 2248274.2072654543,
+    "duration": 523.6820536386192,
+    "metadata": {
+      "channel": 71,
+      "amplitude": 30.91639058736977
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "e6137be9-181a-4e86-8bda-614682392bee",
+    "sessionId": "aad5531e-3273-4292-be89-9886236064da",
+    "eventType": "response",
+    "timestamp": 254689.71543719174,
+    "duration": 578.28028966493,
+    "metadata": {
+      "channel": 241,
+      "amplitude": 64.56429512739999
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "42a8b626-eeec-469b-8ed9-9be76e1b2032",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "response",
+    "timestamp": 215029.88101269334,
+    "duration": 509.9546397874513,
+    "metadata": {
+      "channel": 59,
+      "amplitude": 76.0254163416032
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "19d6738a-221f-4106-910a-2b6c705056cb",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "response",
+    "timestamp": 29176.16294967217,
+    "duration": 180.07377885266078,
+    "metadata": {
+      "channel": 13,
+      "amplitude": 52.14721712169539
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "0737271b-ecf5-41d6-b89b-2f150c6395aa",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "response",
+    "timestamp": 1581468.4201835175,
+    "duration": 198.39361676548108,
+    "metadata": {
+      "channel": 170,
+      "amplitude": 43.29107957210838
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "e5dc4feb-3f9e-4418-94d6-7230ae93392b",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "response",
+    "timestamp": 1101289.2588092827,
+    "duration": 285.1465301598704,
+    "metadata": {
+      "channel": 36,
+      "amplitude": 77.22114022572173
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "6b9ab6a3-443a-4883-8ccd-1a6f24df6f7f",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "movement",
+    "timestamp": 193748.64395686917,
+    "duration": 312.9062286399963,
+    "metadata": {
+      "channel": 221,
+      "amplitude": 55.5075078314458
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "dd21ae26-805a-442a-8eb6-2a4e68a77689",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "movement",
+    "timestamp": 1192581.7174217005,
+    "duration": 474.5812996868949,
+    "metadata": {
+      "channel": 138,
+      "amplitude": 97.15111022410288
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "0dc1154e-723e-42bb-80ac-bb17f9866a61",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "blink",
+    "timestamp": 1921031.6923419433,
+    "duration": 534.1957464983736,
+    "metadata": {
+      "channel": 151,
+      "amplitude": 91.52670668066716
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "bb6d7b65-ae91-4ca8-9d50-970d3e0f7dcf",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "blink",
+    "timestamp": 2212480.028370343,
+    "duration": 502.80037875400353,
+    "metadata": {
+      "channel": 182,
+      "amplitude": 39.05432352379743
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "a0ca6c90-69c7-4978-a989-e2cf659d030f",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "stimulus_onset",
+    "timestamp": 1055493.6737133537,
+    "duration": 275.43794200710863,
+    "metadata": {
+      "channel": 67,
+      "amplitude": 47.951678959050284
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "2cadb180-7906-4412-9f42-174de90e6420",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "artifact",
+    "timestamp": 1027415.966790408,
+    "duration": 123.59693681969176,
+    "metadata": {
+      "channel": 122,
+      "amplitude": 50.4620786529987
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "c0033ab8-2917-45b4-9865-1c6fdf575dc4",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "blink",
+    "timestamp": 1943672.964467439,
+    "duration": 545.758457431036,
+    "metadata": {
+      "channel": 36,
+      "amplitude": 94.64370247474518
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "d1955b92-c396-4e29-ba55-2b66388954ab",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "movement",
+    "timestamp": 902241.3764867281,
+    "duration": 243.09356506010562,
+    "metadata": {
+      "channel": 192,
+      "amplitude": 95.07396792085603
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "ed68f7a0-4833-40f6-8d9a-9758f455f3c0",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "movement",
+    "timestamp": 2158836.6662894865,
+    "duration": 469.657264127212,
+    "metadata": {
+      "channel": 234,
+      "amplitude": 15.723544322953199
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "4c479859-7a75-4c0f-8478-46f70174c2c8",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "blink",
+    "timestamp": 117563.17423669211,
+    "duration": 213.5205497600922,
+    "metadata": {
+      "channel": 42,
+      "amplitude": 60.88470872179901
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "2ab2c319-fbcb-4648-9026-81bededac308",
+    "sessionId": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "eventType": "stimulus_onset",
+    "timestamp": 330353.99226767843,
+    "duration": 495.16526317319125,
+    "metadata": {
+      "channel": 91,
+      "amplitude": 90.9608420466277
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "748ff827-2729-43ab-b898-23e1cd4a6063",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "movement",
+    "timestamp": 1945294.5636267771,
+    "duration": 287.7670508495247,
+    "metadata": {
+      "channel": 174,
+      "amplitude": 5.678674585003529
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "a29b38fc-e61f-4a90-9dd1-1bbc16697a3d",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "stimulus_onset",
+    "timestamp": 491881.1886778413,
+    "duration": 152.69379234970373,
+    "metadata": {
+      "channel": 208,
+      "amplitude": 43.06840468425541
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "3789a0c6-5496-42fa-9d02-d53d8903bf3d",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "blink",
+    "timestamp": 1414797.4780403909,
+    "duration": 597.40669656811,
+    "metadata": {
+      "channel": 244,
+      "amplitude": 75.03962269667875
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "d898ebee-6a75-4137-a45c-434ab7bdded3",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "artifact",
+    "timestamp": 1357970.9178411146,
+    "duration": 345.37589171677485,
+    "metadata": {
+      "channel": 227,
+      "amplitude": 34.13523179723654
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "beff90e9-f373-46ed-8d5f-b4facc11b7b3",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "blink",
+    "timestamp": 1909172.7488269384,
+    "duration": 591.5963314830358,
+    "metadata": {
+      "channel": 204,
+      "amplitude": 17.78339269702489
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "ea6d6e80-02e1-4341-adc3-e194bfd816eb",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "blink",
+    "timestamp": 1887048.9648248414,
+    "duration": 524.1520091699817,
+    "metadata": {
+      "channel": 236,
+      "amplitude": 71.50031937180037
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "cd661861-67e9-40b5-9cf7-0de7fbcbcc4a",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "response",
+    "timestamp": 1756209.1172623867,
+    "duration": 251.46064414991022,
+    "metadata": {
+      "channel": 13,
+      "amplitude": 31.93875633589709
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "72105672-e613-45f0-82db-7318e615329e",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "artifact",
+    "timestamp": 282435.5618594107,
+    "duration": 395.97069004422735,
+    "metadata": {
+      "channel": 135,
+      "amplitude": 39.58589383493178
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "aa0b13b5-ded5-4617-b747-e074b1fab01d",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "movement",
+    "timestamp": 589388.426702875,
+    "duration": 194.77023799490757,
+    "metadata": {
+      "channel": 14,
+      "amplitude": 59.20995069983428
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "21d8f3bc-4eeb-456a-b123-413cdfc28564",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "movement",
+    "timestamp": 778811.7647405157,
+    "duration": 150.6039798917164,
+    "metadata": {
+      "channel": 91,
+      "amplitude": 37.05300227349062
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "52edf83b-27be-44c1-9d52-6c239e608ec0",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "stimulus_onset",
+    "timestamp": 1258735.8097759252,
+    "duration": 569.1559352173645,
+    "metadata": {
+      "channel": 222,
+      "amplitude": 79.63442679666615
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "cba579eb-05df-4cf1-b4f9-dc803f565c99",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "artifact",
+    "timestamp": 705211.5951727658,
+    "duration": 236.23568041163213,
+    "metadata": {
+      "channel": 139,
+      "amplitude": 23.47211772875637
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "3058c74a-5963-4d33-ad53-384fde8852a2",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "stimulus_onset",
+    "timestamp": 1788168.5502043227,
+    "duration": 391.42066285591017,
+    "metadata": {
+      "channel": 219,
+      "amplitude": 73.83811413449924
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "afb1da7f-1d34-449e-b668-ffc36289d491",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "artifact",
+    "timestamp": 1126581.5299805193,
+    "duration": 548.359186777181,
+    "metadata": {
+      "channel": 197,
+      "amplitude": 42.00972670563772
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "ef10979f-a418-4580-be3a-eee56e9f54ba",
+    "sessionId": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "eventType": "stimulus_onset",
+    "timestamp": 1520150.576162415,
+    "duration": 238.9066900373821,
+    "metadata": {
+      "channel": 55,
+      "amplitude": 87.59256083400308
+    },
+    "createdAt": "2026-01-20T16:47:40.145Z"
+  },
+  {
+    "id": "d27842f8-4dbd-44bf-86bf-7dd4c88316f9",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "artifact",
+    "timestamp": 1133457.8643822193,
+    "duration": 161.80669955477103,
+    "metadata": {
+      "channel": 221,
+      "amplitude": 34.962232179633524
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "91546d6d-96cf-42c7-9a2f-729910896494",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "artifact",
+    "timestamp": 1050492.206515332,
+    "duration": 535.0056719654043,
+    "metadata": {
+      "channel": 117,
+      "amplitude": 34.80926690347958
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "651fb817-e216-4eeb-a659-d69bf30904bb",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "stimulus_onset",
+    "timestamp": 621290.8518838786,
+    "duration": 121.48928854781363,
+    "metadata": {
+      "channel": 55,
+      "amplitude": 18.544281428892262
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "3e0bea30-4648-4e84-bf83-c869bee62907",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "blink",
+    "timestamp": 1070109.9664068595,
+    "duration": 355.80620380390303,
+    "metadata": {
+      "channel": 89,
+      "amplitude": 55.977980268003044
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "f86d7832-8f05-4939-be9c-97cccb6e8402",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "artifact",
+    "timestamp": 145060.6238922296,
+    "duration": 247.56678667291345,
+    "metadata": {
+      "channel": 227,
+      "amplitude": 93.50841768172
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "de60b73c-6a5b-4560-bf13-c5d71cec4b88",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "blink",
+    "timestamp": 165158.64125439082,
+    "duration": 513.3440931655579,
+    "metadata": {
+      "channel": 254,
+      "amplitude": 30.730740868544547
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "6615d565-684d-4a00-9cc3-8884e0fa802d",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "artifact",
+    "timestamp": 1267816.2592534272,
+    "duration": 489.40731025171783,
+    "metadata": {
+      "channel": 25,
+      "amplitude": 83.07468941123702
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "5633e1c5-41d7-4de5-bbfa-68a8b6be8ca4",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "blink",
+    "timestamp": 1291940.5226016187,
+    "duration": 180.3988046052284,
+    "metadata": {
+      "channel": 149,
+      "amplitude": 98.75164332187467
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "2ac41239-31a5-4c65-ad12-d0f97332565a",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "movement",
+    "timestamp": 1326239.8021921376,
+    "duration": 388.638277902471,
+    "metadata": {
+      "channel": 228,
+      "amplitude": 17.651025707793224
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "2319e2a1-0cc1-4abc-878f-345b62ab495d",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "response",
+    "timestamp": 550078.4364503957,
+    "duration": 534.7221681007869,
+    "metadata": {
+      "channel": 28,
+      "amplitude": 57.06427473826725
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "64d0e46c-4d27-4ebd-a56d-945956cd0f54",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "movement",
+    "timestamp": 718892.6262138184,
+    "duration": 118.068953318922,
+    "metadata": {
+      "channel": 136,
+      "amplitude": 11.835761354447527
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "36902542-d30d-487a-a9dd-0bb87b33382b",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "movement",
+    "timestamp": 1265333.2210635673,
+    "duration": 119.36992739528931,
+    "metadata": {
+      "channel": 134,
+      "amplitude": 67.43379998211158
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "1cf9fa1e-7c28-43d6-846f-72a75c1e5e26",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "artifact",
+    "timestamp": 687240.309631898,
+    "duration": 231.16308233660013,
+    "metadata": {
+      "channel": 158,
+      "amplitude": 0.7700068880074351
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "979b765c-8512-470f-9ea2-7063aa0e7a43",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "stimulus_onset",
+    "timestamp": 1175295.0565587657,
+    "duration": 575.4486190321364,
+    "metadata": {
+      "channel": 148,
+      "amplitude": 43.49461832602728
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "12e26d7c-7e9a-41e5-a2e8-798197497930",
+    "sessionId": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "eventType": "blink",
+    "timestamp": 98670.94547837485,
+    "duration": 120.30055230717032,
+    "metadata": {
+      "channel": 1,
+      "amplitude": 12.380839338015859
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "d4da9b4a-930f-449c-b39e-04a170a68651",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "artifact",
+    "timestamp": 144734.01093399612,
+    "duration": 296.4285349069436,
+    "metadata": {
+      "channel": 158,
+      "amplitude": 33.19152214776102
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "aec8b39c-fe9e-4698-84ba-3f6d36afebbd",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "response",
+    "timestamp": 1953484.654742297,
+    "duration": 378.10347898750155,
+    "metadata": {
+      "channel": 230,
+      "amplitude": 63.326630500000626
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "5aac7d10-6de4-48ba-8c9b-f1703fcf9bcc",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "movement",
+    "timestamp": 968005.6602395717,
+    "duration": 173.35418328173847,
+    "metadata": {
+      "channel": 218,
+      "amplitude": 46.201271269800934
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "c04c6a92-4420-4f10-85d5-1f8af47f3c09",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "response",
+    "timestamp": 562714.2298471183,
+    "duration": 191.8434481159307,
+    "metadata": {
+      "channel": 127,
+      "amplitude": 89.8952330591379
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "331efc8a-d02f-4162-a9df-a58ece604850",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "response",
+    "timestamp": 101891.22771904594,
+    "duration": 488.06611320998405,
+    "metadata": {
+      "channel": 204,
+      "amplitude": 11.750281827959363
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "c6a6dbbd-d8c4-43f0-9d59-70142a6ee699",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "stimulus_onset",
+    "timestamp": 1797268.1272311104,
+    "duration": 176.96503367590756,
+    "metadata": {
+      "channel": 105,
+      "amplitude": 16.40590910120958
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "4faf3d5f-3677-4ca3-ad84-8c3e4d66caf9",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "response",
+    "timestamp": 1433025.4565239365,
+    "duration": 379.9232282316535,
+    "metadata": {
+      "channel": 172,
+      "amplitude": 83.05124004943166
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "b493f903-c696-4c67-804e-dd14125ed4bc",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "stimulus_onset",
+    "timestamp": 630771.7418467484,
+    "duration": 515.9684518314616,
+    "metadata": {
+      "channel": 81,
+      "amplitude": 80.7908212753063
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "852d00dd-af06-40c3-aa42-ba3182953b7c",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "artifact",
+    "timestamp": 1683681.071610231,
+    "duration": 156.10196082893603,
+    "metadata": {
+      "channel": 230,
+      "amplitude": 95.15144869303877
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "18ca7470-2211-4038-9154-db07b7a9fd63",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "movement",
+    "timestamp": 1979246.5587201745,
+    "duration": 354.8521625691644,
+    "metadata": {
+      "channel": 141,
+      "amplitude": 56.222742827299314
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "72a35844-2b48-4687-8259-135532cb1c12",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "blink",
+    "timestamp": 303811.2319148364,
+    "duration": 115.37584881139998,
+    "metadata": {
+      "channel": 189,
+      "amplitude": 40.95966603062347
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "3f62936e-b116-4195-b0e5-73efb52b7993",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "artifact",
+    "timestamp": 1610329.3113239238,
+    "duration": 243.5744189522421,
+    "metadata": {
+      "channel": 93,
+      "amplitude": 80.19848882924865
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "7895d683-d64b-4813-8ee3-20e7acfc0c21",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "stimulus_onset",
+    "timestamp": 1321095.4111133942,
+    "duration": 401.50747740552396,
+    "metadata": {
+      "channel": 85,
+      "amplitude": 37.61872869927254
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "9777fe75-0a79-47e8-889a-dc9ad6ec6dbd",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "artifact",
+    "timestamp": 1943090.0756532156,
+    "duration": 454.4032453498236,
+    "metadata": {
+      "channel": 23,
+      "amplitude": 0.561089969420081
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "5de7db85-9e83-4fa5-bad3-9696bd823225",
+    "sessionId": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "eventType": "stimulus_onset",
+    "timestamp": 1026324.8841766204,
+    "duration": 114.77841059548967,
+    "metadata": {
+      "channel": 160,
+      "amplitude": 94.98354590967821
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "04cf8e9e-b0bb-4a67-b45b-94cda7f74650",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "stimulus_onset",
+    "timestamp": 883675.5389110312,
+    "duration": 201.71197118361806,
+    "metadata": {
+      "channel": 50,
+      "amplitude": 12.953712386064463
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "a06830f0-45d1-4f6f-83fc-7e464ac97ef0",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "blink",
+    "timestamp": 372343.8808992355,
+    "duration": 224.93220527523152,
+    "metadata": {
+      "channel": 166,
+      "amplitude": 54.687918238462174
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "cedd68b0-ae41-454a-bb52-235572e9da8d",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "blink",
+    "timestamp": 3280.1344044262137,
+    "duration": 420.56483495064833,
+    "metadata": {
+      "channel": 168,
+      "amplitude": 91.66916489290229
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "9be34853-f3ed-4b7f-af5e-d56665928b29",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "artifact",
+    "timestamp": 94323.00390412367,
+    "duration": 463.9621218055996,
+    "metadata": {
+      "channel": 238,
+      "amplitude": 3.9722486819166347
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "311002ad-9f31-4dcf-8098-fe583f8320a8",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "artifact",
+    "timestamp": 1282005.7918149766,
+    "duration": 414.06210411451264,
+    "metadata": {
+      "channel": 48,
+      "amplitude": 67.28493254672101
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "7a3f2e74-f86b-48e6-a49c-0141aef73cde",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "artifact",
+    "timestamp": 1148852.2309469888,
+    "duration": 520.7786551474039,
+    "metadata": {
+      "channel": 64,
+      "amplitude": 22.670777777618056
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "988e39fc-5ffe-4812-b414-ce1ab471ffc4",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "blink",
+    "timestamp": 718739.837227869,
+    "duration": 387.374855976413,
+    "metadata": {
+      "channel": 135,
+      "amplitude": 38.03136895370977
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "264b30c3-8888-46cd-b1a4-e4a7aadcff1d",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "blink",
+    "timestamp": 120578.37579001479,
+    "duration": 308.68292628273156,
+    "metadata": {
+      "channel": 230,
+      "amplitude": 35.99686403025828
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "d01db41f-4d7d-40d2-b5de-4dc2a8324f7e",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "stimulus_onset",
+    "timestamp": 353165.3913110992,
+    "duration": 587.3990879768044,
+    "metadata": {
+      "channel": 176,
+      "amplitude": 25.49287120664856
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "9f82727d-412c-43af-829b-db5d9f7f3035",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "movement",
+    "timestamp": 227255.2613414574,
+    "duration": 192.63151294214066,
+    "metadata": {
+      "channel": 35,
+      "amplitude": 49.974280001035275
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "0fa5c37e-99aa-4142-8128-8ca9d9e67525",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "movement",
+    "timestamp": 350287.12173285364,
+    "duration": 371.27507275494156,
+    "metadata": {
+      "channel": 136,
+      "amplitude": 18.269838997009934
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "0b3cb531-0e1e-4cb7-ba8d-f88bd1866a16",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "movement",
+    "timestamp": 535642.1996939719,
+    "duration": 120.33936236918777,
+    "metadata": {
+      "channel": 27,
+      "amplitude": 85.75912463893044
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "e014139e-2484-4c98-8639-ca13c50c9a15",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "response",
+    "timestamp": 1417179.0333354361,
+    "duration": 195.08645349611544,
+    "metadata": {
+      "channel": 0,
+      "amplitude": 59.44970437414598
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "d14aa10a-b3bb-4029-9c4c-5de2b87a0c02",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "stimulus_onset",
+    "timestamp": 714435.9234169615,
+    "duration": 274.8133333714262,
+    "metadata": {
+      "channel": 21,
+      "amplitude": 33.95944955664909
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "346bbf05-a416-4161-93e7-d21fef62fb0b",
+    "sessionId": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "eventType": "stimulus_onset",
+    "timestamp": 77921.09982131323,
+    "duration": 521.5021590869421,
+    "metadata": {
+      "channel": 6,
+      "amplitude": 21.313225095637357
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "a920a66e-5831-4137-afd0-541371216996",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "movement",
+    "timestamp": 541164.7607995943,
+    "duration": 164.07939632915839,
+    "metadata": {
+      "channel": 35,
+      "amplitude": 12.491978537323511
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "d0b9a60f-0784-4e82-944d-5c93a7a8ed87",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "artifact",
+    "timestamp": 2144953.7111899033,
+    "duration": 132.1780084029486,
+    "metadata": {
+      "channel": 255,
+      "amplitude": 18.67322627559542
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "1205636f-3166-4efa-86d0-a535a539b5a0",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "blink",
+    "timestamp": 2262153.301681382,
+    "duration": 281.6224059029714,
+    "metadata": {
+      "channel": 179,
+      "amplitude": 32.80477208012664
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "12479cc9-3b22-42d8-a71c-d9a70097bb11",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "artifact",
+    "timestamp": 1211731.464150517,
+    "duration": 456.8513958847763,
+    "metadata": {
+      "channel": 123,
+      "amplitude": 26.16892529799706
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "87938d20-826c-49fe-9601-78ffe95feef6",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "artifact",
+    "timestamp": 488225.48633395304,
+    "duration": 242.30072234545355,
+    "metadata": {
+      "channel": 125,
+      "amplitude": 27.509372824872578
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "30bae635-ffe3-4337-b531-ae6fe1ed0462",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "stimulus_onset",
+    "timestamp": 271562.65923370974,
+    "duration": 426.5536211680302,
+    "metadata": {
+      "channel": 5,
+      "amplitude": 11.647745921091346
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "862bec29-b90d-477a-ac98-0dbe3b0ec063",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "stimulus_onset",
+    "timestamp": 76670.46887112824,
+    "duration": 591.0286043457248,
+    "metadata": {
+      "channel": 186,
+      "amplitude": 12.00018372522691
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "2af15ee0-4bd1-40c1-81e4-d8ae0a75caa2",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "artifact",
+    "timestamp": 366689.0645256174,
+    "duration": 441.73041332355933,
+    "metadata": {
+      "channel": 170,
+      "amplitude": 76.72145071276675
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "3d2ba761-a748-4a3e-876d-922cfe74b8b8",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "artifact",
+    "timestamp": 1459550.26036137,
+    "duration": 245.84294431337185,
+    "metadata": {
+      "channel": 180,
+      "amplitude": 91.4619813051597
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "74ff0bac-e77c-4f80-b8d3-f8d871926012",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "response",
+    "timestamp": 2081034.3308121082,
+    "duration": 368.28957571905164,
+    "metadata": {
+      "channel": 122,
+      "amplitude": 64.55655499455173
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "a87ef7a0-b793-4155-bdd7-5a20fb638097",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "response",
+    "timestamp": 1899935.9573074218,
+    "duration": 356.26701759865966,
+    "metadata": {
+      "channel": 122,
+      "amplitude": 17.74276294180208
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "92e9fecf-359d-4465-99fe-0e7e18e09e11",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "response",
+    "timestamp": 1498814.6777790103,
+    "duration": 284.52279246418504,
+    "metadata": {
+      "channel": 33,
+      "amplitude": 65.55576138376242
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "22a08962-92c0-40fd-b291-d6aece53e77c",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "stimulus_onset",
+    "timestamp": 1477390.3032283825,
+    "duration": 291.3889557232973,
+    "metadata": {
+      "channel": 86,
+      "amplitude": 50.45050038107848
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "83100a36-5a4c-4819-9fa4-515289b17ec8",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "blink",
+    "timestamp": 1695700.0470926387,
+    "duration": 102.37174374679083,
+    "metadata": {
+      "channel": 16,
+      "amplitude": 13.07895408114177
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "360a7daa-394f-4693-a08a-7b14db4ad5d4",
+    "sessionId": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "eventType": "movement",
+    "timestamp": 473157.31015613134,
+    "duration": 576.4054031109683,
+    "metadata": {
+      "channel": 54,
+      "amplitude": 79.6461588788183
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "33bbd253-1ca7-430c-94e4-8fcabd485632",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "blink",
+    "timestamp": 42274.59561522878,
+    "duration": 406.9045805877889,
+    "metadata": {
+      "channel": 186,
+      "amplitude": 50.05945748408167
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "b9d76d1c-1934-4041-8b57-fb133b3e86f3",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "stimulus_onset",
+    "timestamp": 1807809.2992615402,
+    "duration": 441.3506155848902,
+    "metadata": {
+      "channel": 129,
+      "amplitude": 41.621783620465976
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "33841efe-afba-493f-8684-45b0501b6c27",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "stimulus_onset",
+    "timestamp": 2361746.8837988316,
+    "duration": 221.9233782574368,
+    "metadata": {
+      "channel": 177,
+      "amplitude": 50.944519673971534
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "5075b4bc-11be-4492-b0ab-6c4cf62ce79d",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "artifact",
+    "timestamp": 429000.13455565245,
+    "duration": 286.3495132205994,
+    "metadata": {
+      "channel": 143,
+      "amplitude": 88.809003833439
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "b1216d66-a882-44b4-a6dc-4c1e66dae301",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "movement",
+    "timestamp": 277989.33782626933,
+    "duration": 418.9814741501924,
+    "metadata": {
+      "channel": 19,
+      "amplitude": 36.69421402558059
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "d19fdbdb-1e00-4d66-a35d-c200a9177397",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "response",
+    "timestamp": 1179065.7521179295,
+    "duration": 338.9320345283262,
+    "metadata": {
+      "channel": 181,
+      "amplitude": 20.815658304830585
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "39dffb0e-b9d0-4145-a88f-a795a5a0e81b",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "stimulus_onset",
+    "timestamp": 984567.5283003972,
+    "duration": 296.23292061342346,
+    "metadata": {
+      "channel": 18,
+      "amplitude": 17.51861993216366
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "2abd728a-0d99-4c8d-a09b-912752431586",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "artifact",
+    "timestamp": 1487175.4913327491,
+    "duration": 304.66002342950475,
+    "metadata": {
+      "channel": 114,
+      "amplitude": 56.90100844319799
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "c899cfd3-7cdd-40c7-a6d5-8f37546983a2",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "movement",
+    "timestamp": 2019115.1587005875,
+    "duration": 324.74092975283907,
+    "metadata": {
+      "channel": 194,
+      "amplitude": 33.69629269967553
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "89ba0ba8-2d70-43da-99af-9386054b575d",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "artifact",
+    "timestamp": 1691470.730841209,
+    "duration": 516.9335956967932,
+    "metadata": {
+      "channel": 217,
+      "amplitude": 12.081981548178454
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "9d926811-f89f-4694-ab4f-6221a1a1e0c1",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "blink",
+    "timestamp": 294144.77239551296,
+    "duration": 432.846063493063,
+    "metadata": {
+      "channel": 214,
+      "amplitude": 79.60245270864057
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "23df417b-2ef6-4687-8103-439a12c157ca",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "movement",
+    "timestamp": 1260015.8056838212,
+    "duration": 551.7899654958976,
+    "metadata": {
+      "channel": 112,
+      "amplitude": 60.38848223182227
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "fc290fab-2614-4d03-8399-bfc432ab4272",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "response",
+    "timestamp": 1453553.838606546,
+    "duration": 441.7625080411086,
+    "metadata": {
+      "channel": 55,
+      "amplitude": 70.29395302297678
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "94cfd6c2-7c34-4b71-952a-f32a502f09f4",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "artifact",
+    "timestamp": 1304738.1743811201,
+    "duration": 383.1292407345053,
+    "metadata": {
+      "channel": 82,
+      "amplitude": 30.123276254867726
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "a9e4332e-1dab-4c3f-9833-5d4686c7621a",
+    "sessionId": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "eventType": "blink",
+    "timestamp": 1370856.2160414872,
+    "duration": 306.5253286154401,
+    "metadata": {
+      "channel": 107,
+      "amplitude": 13.325013264066076
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "d1e4b46b-b849-45ff-a254-0bf89220f496",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "stimulus_onset",
+    "timestamp": 1096737.0263387836,
+    "duration": 390.509219523704,
+    "metadata": {
+      "channel": 92,
+      "amplitude": 50.08862356868262
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "d9e563e4-3f00-4dac-a692-ba93eced66dd",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "stimulus_onset",
+    "timestamp": 1297922.8172413912,
+    "duration": 489.41828516522025,
+    "metadata": {
+      "channel": 184,
+      "amplitude": 48.17301056583025
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "b73a21f1-fbe2-43ce-91e4-7046a6fc13c5",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "response",
+    "timestamp": 823445.7804162411,
+    "duration": 201.53115846123828,
+    "metadata": {
+      "channel": 52,
+      "amplitude": 97.2744464373526
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "6e3082c9-cfbb-43e1-a10a-9dc6a195d3f0",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "stimulus_onset",
+    "timestamp": 520726.0102509874,
+    "duration": 281.3059744958969,
+    "metadata": {
+      "channel": 189,
+      "amplitude": 98.88425004138502
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "f9c84c06-e953-44da-9aad-10cff64df445",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "response",
+    "timestamp": 681481.5377336376,
+    "duration": 182.79898493314252,
+    "metadata": {
+      "channel": 51,
+      "amplitude": 76.13949606313003
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "27bf19db-6fbd-4c74-a9a7-732c283c4eb8",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "response",
+    "timestamp": 1836171.136435291,
+    "duration": 251.8531260390824,
+    "metadata": {
+      "channel": 253,
+      "amplitude": 73.16176942739985
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "84465852-c3a2-4c7a-b853-89ed544df7cf",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "movement",
+    "timestamp": 1267692.0377089842,
+    "duration": 237.96988141652577,
+    "metadata": {
+      "channel": 12,
+      "amplitude": 93.6307030484776
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "05c7d5ed-00e8-4078-9626-4e16c8415982",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "movement",
+    "timestamp": 1933508.6092200736,
+    "duration": 551.3875215427074,
+    "metadata": {
+      "channel": 78,
+      "amplitude": 34.15168514601032
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "31903d52-dbe1-4025-84ae-bc60cc1da8e4",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "stimulus_onset",
+    "timestamp": 1882308.5245376858,
+    "duration": 362.10875483885866,
+    "metadata": {
+      "channel": 66,
+      "amplitude": 12.287376606501542
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "41a50f01-0b5a-4b9d-8707-7179b2ee5f4e",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "response",
+    "timestamp": 1603934.4345408808,
+    "duration": 302.70614943508014,
+    "metadata": {
+      "channel": 80,
+      "amplitude": 68.91902122628935
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "99c9d466-7e55-4945-89b8-b1a1769b2488",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "artifact",
+    "timestamp": 603161.642594016,
+    "duration": 119.52888696049126,
+    "metadata": {
+      "channel": 63,
+      "amplitude": 38.00110031808374
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "40ccb4ab-4d57-49f4-92b7-31e60cf8d253",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "response",
+    "timestamp": 727872.8682079025,
+    "duration": 201.66640332935663,
+    "metadata": {
+      "channel": 3,
+      "amplitude": 96.6802686617982
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "4e695c44-a46c-4122-8c34-22405693a7d1",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "response",
+    "timestamp": 943204.6427377015,
+    "duration": 398.6502632342548,
+    "metadata": {
+      "channel": 75,
+      "amplitude": 2.9525021250836225
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "4f0752b2-5179-4784-8ab0-eee6b0bddc57",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "stimulus_onset",
+    "timestamp": 2454527.4159137583,
+    "duration": 367.3314369729426,
+    "metadata": {
+      "channel": 19,
+      "amplitude": 3.4070083808835916
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "4b2298b7-5c09-4dfa-940c-2bfacc535b9b",
+    "sessionId": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "eventType": "blink",
+    "timestamp": 571924.5972177591,
+    "duration": 518.2762505490296,
+    "metadata": {
+      "channel": 52,
+      "amplitude": 23.281465180612738
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  },
+  {
+    "id": "eb778d82-153c-447a-8dd7-d83622bef8b9",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "artifact",
+    "timestamp": 768281.2902866924,
+    "duration": 180.8090365659916,
+    "metadata": {
+      "channel": 163,
+      "amplitude": 58.586277034918055
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "16afe9b9-a2fb-4f6c-ad97-7ea3bc83eb24",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "blink",
+    "timestamp": 300616.85584672185,
+    "duration": 573.411682520723,
+    "metadata": {
+      "channel": 30,
+      "amplitude": 60.19214942475388
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "6d17fd8a-dc68-4a84-a333-30b7c6fdfed5",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "artifact",
+    "timestamp": 369608.9535077589,
+    "duration": 406.32240865440474,
+    "metadata": {
+      "channel": 176,
+      "amplitude": 66.23057749500853
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "397d03bd-91b6-4e60-a77b-40b6cefc9495",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "artifact",
+    "timestamp": 1182137.6342773258,
+    "duration": 454.7534040644108,
+    "metadata": {
+      "channel": 57,
+      "amplitude": 19.04288217942163
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "10c0634b-36b8-435d-a26f-2f48a3284893",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "artifact",
+    "timestamp": 1057675.6982426187,
+    "duration": 313.4030256406896,
+    "metadata": {
+      "channel": 122,
+      "amplitude": 1.4879593828541315
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "efa74004-eda5-4ac1-96a0-4b5a36c567d0",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "blink",
+    "timestamp": 493656.362198218,
+    "duration": 494.3547199310006,
+    "metadata": {
+      "channel": 52,
+      "amplitude": 10.475145615948911
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "61585f62-dd5a-463e-a510-63939502594f",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "stimulus_onset",
+    "timestamp": 491827.9443950671,
+    "duration": 548.0953589192379,
+    "metadata": {
+      "channel": 48,
+      "amplitude": 61.166981299272
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "e9432855-0917-4284-8450-48c43f7e8b1a",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "blink",
+    "timestamp": 489758.5757274162,
+    "duration": 538.0112485655686,
+    "metadata": {
+      "channel": 250,
+      "amplitude": 99.74745387629267
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "6a881c3a-6d83-4150-984d-1bf72dea3f2f",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "response",
+    "timestamp": 647532.4951073935,
+    "duration": 325.61325787390274,
+    "metadata": {
+      "channel": 40,
+      "amplitude": 92.88708821131033
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "bcb787c2-41f1-4302-80f7-cb372a6ea717",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "response",
+    "timestamp": 1594372.1833640912,
+    "duration": 528.462950397568,
+    "metadata": {
+      "channel": 102,
+      "amplitude": 96.92187631650258
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "1802d589-f20f-469c-98d4-3e11b72e7a3d",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "response",
+    "timestamp": 351891.0379138315,
+    "duration": 424.20811950474683,
+    "metadata": {
+      "channel": 241,
+      "amplitude": 93.46687474642212
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "0a120f8e-6e87-4a8e-a0a2-d66208f75420",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "blink",
+    "timestamp": 1069484.9349693386,
+    "duration": 359.9779849199225,
+    "metadata": {
+      "channel": 150,
+      "amplitude": 96.02402329600059
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "47d8037f-a5af-4a88-8707-b3aff4349671",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "response",
+    "timestamp": 51665.220196243376,
+    "duration": 349.7574765044734,
+    "metadata": {
+      "channel": 19,
+      "amplitude": 52.93129586763254
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "25c00ef0-d038-4bb7-a7ef-3748e05133a2",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "artifact",
+    "timestamp": 350449.54759841814,
+    "duration": 550.7885170337845,
+    "metadata": {
+      "channel": 109,
+      "amplitude": 95.28872334281124
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  },
+  {
+    "id": "01ae4148-4ef0-45f5-900f-d74e70f5c620",
+    "sessionId": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "eventType": "response",
+    "timestamp": 722662.6680700968,
+    "duration": 458.668740946835,
+    "metadata": {
+      "channel": 117,
+      "amplitude": 0.7410736392422512
+    },
+    "createdAt": "2026-01-20T16:48:05.921Z"
+  }
+]

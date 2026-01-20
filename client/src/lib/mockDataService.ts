@@ -105,6 +105,14 @@ class MockDataService {
         fetch("/mock-data/registry-entries.json"),
       ]);
 
+      if (!sessionsRes.ok) throw new Error(`Failed to fetch sessions: ${sessionsRes.status}`);
+      if (!recordingsRes.ok) throw new Error(`Failed to fetch recordings: ${recordingsRes.status}`);
+      if (!eventsRes.ok) throw new Error(`Failed to fetch events: ${eventsRes.status}`);
+      if (!metricsRes.ok) throw new Error(`Failed to fetch metrics: ${metricsRes.status}`);
+      if (!featuresRes.ok) throw new Error(`Failed to fetch features: ${featuresRes.status}`);
+      if (!runsRes.ok) throw new Error(`Failed to fetch runs: ${runsRes.status}`);
+      if (!registryRes.ok) throw new Error(`Failed to fetch registry: ${registryRes.status}`);
+
       this.sessions = await sessionsRes.json();
       this.recordings = await recordingsRes.json();
       this.events = await eventsRes.json();

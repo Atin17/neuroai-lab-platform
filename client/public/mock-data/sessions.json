@@ -1,0 +1,182 @@
+[
+  {
+    "id": "7d811356-911f-4904-b9dc-fe4583156396",
+    "subject": "Subject_A",
+    "date": "2026-01-04",
+    "task": "visual_processing",
+    "duration": 29,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N2_Array",
+      "operator": "Dr. Kaur",
+      "quality": "fair"
+    },
+    "createdAt": "2026-01-20T16:47:22.973Z"
+  },
+  {
+    "id": "a49945bb-b1ca-4006-bcdb-8948b344bc64",
+    "subject": "Subject_A",
+    "date": "2026-01-08",
+    "task": "motor_imagery",
+    "duration": 32,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "Utah_Array",
+      "operator": "Dr. Chen",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:47:26.415Z"
+  },
+  {
+    "id": "aad5531e-3273-4292-be89-9886236064da",
+    "subject": "Subject_A",
+    "date": "2026-01-17",
+    "task": "visual_processing",
+    "duration": 40,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N1_Array",
+      "operator": "Dr. Patel",
+      "quality": "fair"
+    },
+    "createdAt": "2026-01-20T16:47:29.748Z"
+  },
+  {
+    "id": "55dbdc52-6ad4-4192-9ac9-ad92e9d3fa21",
+    "subject": "Subject_A",
+    "date": "2025-12-29",
+    "task": "speech_decoding",
+    "duration": 42,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N2_Array",
+      "operator": "Dr. Patel",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:47:33.223Z"
+  },
+  {
+    "id": "52c6666d-c6ef-4d3b-ace2-b0b966c474b9",
+    "subject": "Subject_B",
+    "date": "2026-01-07",
+    "task": "motor_imagery",
+    "duration": 33,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N2_Array",
+      "operator": "Dr. Chen",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:47:36.693Z"
+  },
+  {
+    "id": "811d26bb-cc45-4020-8916-9bc52e00dcb5",
+    "subject": "Subject_B",
+    "date": "2025-12-31",
+    "task": "visual_processing",
+    "duration": 25,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N1_Array",
+      "operator": "Dr. Patel",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:47:40.146Z"
+  },
+  {
+    "id": "08ef191d-3e5d-420b-a8fe-0ca8a4971f2f",
+    "subject": "Subject_B",
+    "date": "2025-12-22",
+    "task": "visual_processing",
+    "duration": 33,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N2_Array",
+      "operator": "Dr. Chen",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:47:43.907Z"
+  },
+  {
+    "id": "fbd087f9-a613-43d4-b5cb-45a002fb14bb",
+    "subject": "Subject_B",
+    "date": "2026-01-10",
+    "task": "rest",
+    "duration": 24,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N1_Array",
+      "operator": "Dr. Williams",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:47:47.513Z"
+  },
+  {
+    "id": "06e2859b-8ffa-4513-9281-9b8f7a9e4a28",
+    "subject": "Subject_C",
+    "date": "2025-12-31",
+    "task": "speech_decoding",
+    "duration": 38,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N2_Array",
+      "operator": "Dr. Patel",
+      "quality": "fair"
+    },
+    "createdAt": "2026-01-20T16:47:51.120Z"
+  },
+  {
+    "id": "854ac66b-06a2-4299-ae58-753c8e2862ba",
+    "subject": "Subject_C",
+    "date": "2026-01-12",
+    "task": "motor_imagery",
+    "duration": 42,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N1_Array",
+      "operator": "Dr. Patel",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:47:54.889Z"
+  },
+  {
+    "id": "48fa602b-3052-40fa-a8db-c51c1aac3bc3",
+    "subject": "Subject_C",
+    "date": "2026-01-04",
+    "task": "speech_decoding",
+    "duration": 49,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "N1_Array",
+      "operator": "Dr. Williams",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:47:58.818Z"
+  },
+  {
+    "id": "1a69d788-3e2f-4c53-bcf3-f2299a8fed37",
+    "subject": "Subject_C",
+    "date": "2026-01-07",
+    "task": "rest",
+    "duration": 27,
+    "channels": 256,
+    "samplingRate": 30000,
+    "metadata": {
+      "implant": "Utah_Array",
+      "operator": "Dr. Patel",
+      "quality": "good"
+    },
+    "createdAt": "2026-01-20T16:48:02.293Z"
+  }
+]
