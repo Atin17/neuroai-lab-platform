@@ -123,7 +123,7 @@ pnpm start
 - **Node.js + Express** for server runtime
 - **tRPC** for type-safe API layer with automatic client generation
 - **Drizzle ORM** for database operations with MySQL/TiDB
-- **Manus OAuth** for authentication and user management
+- **OAuth** for authentication and user management
 - **S3-compatible storage** for large dataset files
 
 ### Design System
