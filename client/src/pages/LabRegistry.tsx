@@ -52,10 +52,11 @@ export default function LabRegistry() {
 
   // Filter entries
   const filteredEntries = registryEntries.filter((entry) => {
+    const search = (searchTerm || "").toLowerCase();
     const matchesSearch =
-      entry.sessionId.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      entry.notes.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      entry.device.toLowerCase().includes(searchTerm.toLowerCase());
+      entry.sessionId.toLowerCase().includes(search) ||
+      entry.notes.toLowerCase().includes(search) ||
+      entry.device.toLowerCase().includes(search);
 
     const matchesTag = selectedTag === "all" || entry.tags.includes(selectedTag);
 
