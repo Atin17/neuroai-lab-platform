@@ -110,6 +110,22 @@ pnpm build
 pnpm start
 ```
 
+### ML Training (Python)
+
+Train real ML models locally using the synthetic neural dataset generator:
+
+```bash
+# Install Python dependencies
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# Train models and write artifacts to ./artifacts/training
+python train.py
+```
+
+The training script produces model artifacts (`.joblib`) and `metrics.json` in `artifacts/training`.
+
 ## Architecture
 
 ### Frontend Stack
