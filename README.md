@@ -6,7 +6,7 @@
 
 ## Overview
 
-This platform demonstrates production-ready infrastructure for neuroscience research teams, showcasing end-to-end workflows from raw neural data ingestion through machine learning model training with comprehensive experiment tracking. Built to mirror the internal tooling used by companies like Neuralink for managing large-scale neural recording datasets.
+This platform provides production-ready infrastructure for neuroscience research teams, showcasing end-to-end workflows from raw neural data ingestion to machine learning model training, with comprehensive experiment tracking. Built to mirror the internal tooling used by companies like Neuralink for managing large-scale neural recording datasets.
 
 ## Key Features
 
