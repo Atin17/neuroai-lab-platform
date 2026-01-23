@@ -267,7 +267,7 @@ The platform follows a **scientific/technical** approach inspired by internal ne
 - [ ] CI/CD with GitHub Actions
 - [ ] Demo video and screenshots
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details
 
